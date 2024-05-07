@@ -1,0 +1,97 @@
+/* Chatbot Container */
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Chat History */
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Message Styling with Box Shadow */
+.message {
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* User and Bot Messages with Gradient */
+.user,
+.bot {
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 1.4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.user { background: linear-gradient(45deg, #1f94f4, #f83174);
+  
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(8, 8, 8, 0.2);
+}
+
+.bot {
+  
+  background: linear-gradient(45deg, #4caf50, #009688);
+  color: #fff;
+}
+
+/* Image Container */
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Image Styling */
+.image {
+  max-width: 200px;
+  max-height: 100px;
+  border-radius: 8px;
+}
+
+/* User Input Section with Highlighted Background */
+.user-input {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  background: linear-gradient(45deg, #1f94f458, #f8317349);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Field Styling */
+input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+/* Send Button Styling */
+button {
+  padding: 12px;
+  background: linear-gradient(45deg, #4caf50, #009688);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: linear-gradient(45deg, #388e3c, #00796b);
+  }
+}
+
+
+

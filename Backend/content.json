@@ -1,0 +1,1328 @@
+{ 
+    "intent": 
+    [  
+    {      "tag":"greeting" , 
+        "input" : ["hello","hi there","nice to meet you","hi","anybody here ?","hai","hiii","hey there","hey","helloo", "hellooo", "good morning", "morning", "good day", "good afternoon", "good evening"
+        ] , 
+        "responses": 
+        [ 
+            "Hi. Welcome !!!", "Hey yo,do you need help ?", "Welcome , How may I help you ?", "Hai random person,what do you want?", 
+            "Hello my friend, How can I help you?", "Ha, Glad you showed up, how are you?"
+        ]
+    }, 
+    { "tag": "goodbye", 
+        "input": ["Thank you","Thanks","Thanks for the info","bye","bye bro","adios","okay bye","goodbye","good bye","see you later","i will catch you later"],
+        "responses": 
+        [    
+            "Okay, Bye",  "Have a nice day", 
+            "Adios", "Goodbye", "Nice conversation. bye!", 
+            "Okay. Have a nice day", "Take care",  "We will meet soon", "Yeah sure,will talk to you later","okay, Take care !"        
+        ]
+    }, 
+    { 
+        "tag": "how am i", 
+        "input": ["how are you?","I am fine","how are you ?","are you fine ?","how are things going on ?","evrything going on okay ?","how's everything going ?","how u?",
+        "how's it going?","how's life treating you?","how's everything?"],
+        "responses": 
+        [ "I'm just a computer program, so I don't have feelings or consciousness, but I'm here and ready to assist you with cancer related questions. How can I assist you today?"
+        , "Yeah, Doing good.Thanks!", "Evrerything's going on well", "Things are great","Evrything's great"        ]
+    }, 
+
+    { 
+        "tag": "who are you", 
+        "input": ["who are you?","what are you ?","what is your name ?","are you a chatbot ?","what can I call you ?","your name ?","are you a bot ?"
+         ],
+        "responses": 
+        [ "I'm a CancerBot, I'm here and ready to assist you with Cancer related questions. How can I assist you today?"
+        , "You can call me CancerBot and I am here to help you", "I am CancerBot & I am ready to answer your questions regarding cancer"]  
+    }, 
+    { 
+        "tag": "where are you", 
+        "input": ["where are you from?","which country are you from ?","where do you live ?","where are you ?","where do you live in ?","which place do you belong ?",
+        "where do you sleep ?","which is your native","where are you"
+         ],
+        "responses": 
+        [ "I don't have a physical presence or origin, as I am a computer program created by MCA students. I exist solely to provide cancer information and assist with tasks to the best of my knowledge and abilities"]  
+    }, 
+    { 
+        "tag": "cancer", 
+        "input": ["What is cancer?",  "What is cancer?", "The abnormal growth of cells","How would you define cancer?", "Can you explain what cancer is in simple terms?",  "Could you provide a clear definition of cancer?",
+        "What is the medical definition of cancer?", "In simple terms, what does the word \"cancer\" refer to?","cancers","what is meant by cancer",
+        "Define cancer","How do experts describe the disease known as cancer?","cancer","explain me about cancer","explain cancer","define cancer",
+        "What's the textbook definition of cancer?","What is the essence of the term \"cancer\" in the medical world?", "Can you clarify the concept of cancer in a concise manner?","What is the essence of the term \"cancer\" in the medical world?","Can you clarify the concept of cancer in a concise manner?" ],
+     "responses": [
+        "Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body. Cancer can start almost anywhere in the human body, which is made up of trillions of cells. Some cancers may eventually spread into other tissues"
+     , "Cancer results from the uncontrolled growth of abnormal cells anywhere in the body (blood, brain, bone, or any organ) and many of these abnormal cells are capable of invading other tissues.\n\t\tCancers are often named for the organ or cell type where the abnormal cells first develop. Terms such as liver cancer, lung cancer, brain cancer, and many others refer to where the abnormal cells started to develop. When these cancer cells leave their original developmental site they are termed metastatic cancer.",
+    "Cancer is a leading cause of death worldwide, accounting for nearly 10 million deaths in 2020, or nearly one in six deaths.The most common cancers are breast, lung, colon and rectum and prostate cancers.Around one-third of deaths from cancer are due to tobacco use, high body mass index, alcohol consumption, low fruit and vegetable intake, and lack of physical activity.Cancer-causing infections, such as human papillomavirus (HPV) and hepatitis, are responsible for approximately 30% of cancer cases in low and lower-middle-income countries.Many cancers can be cured if detected early and treated effectively."]
+    }, 
+
+    { 
+        "tag": "clinical terms of cancer", 
+        "input": ["What are the clinical terms of cancer?","Tell me the clinical terms of cancer","clinical terms of cancer"], 
+        "responses": [
+            "There are also several clinical terms used for certain general types of cancer:\nCARCINOMA is a cancer that starts in the skin or the tissues that line other organs.\nSarcomais a cancer of connective tissues such as bones, muscles, cartilage, and blood vessels.\nLEUKEMIA is a cancer of the bone marrow, which creates blood cells.\nLYMPHOMA and myeloma are cancers of the immune system."
+        ]
+    }, 
+    {
+    "tag": "symptoms and signs of cancer", 
+    "input": ["What are the symptoms of cancer ?","What are the signs of cancer?","signs of cancer","symptoms of cancer","What are the signs and symptoms of cancer?",
+    "Can you list the common signs and symptoms of cancer?","What are the typical indicators that someone may have cancer?",
+    "Could you describe the warning signs of cancer that people should be aware of?","signs","symptoms","early signs","symptoms and signs of cancer",
+    "What are some of the red flags that might suggest the presence of cancer?","Does cancer have symptoms?",
+    "What are the early signs of cancer?","Can you provide information on the early symptoms of various types of cancer?",
+    "What physical changes or abnormalities should individuals look out for as potential signs of cancer?",
+    "How do the symptoms of cancer manifest, and are they consistent across different types of cancer?"], 
+    "responses": [
+        "Cancer can be identified by a variety of symptoms.There are a few general symptoms:\n1.Lumps or growths on the body\n2.Unexplained weight loss\n3.Fever\n4.Tiredness and Fatigue\n5.Continuous pain in a certain area\n6.Night sweats\n7.Changes in digestion\n8.Irregular changes in the skin (pigmentation, unusual hair growth, red or yellow skin, blotches etc.)\n9.Cough"
+    ,"Cancer is a varied disease that can cause many different signs and symptoms, depending upon the type of cancer and its location in the body. The size and aggressiveness of the cancer also may determine the type of symptoms that it causes.\n\t\t\tCancers can invade or distort normal organs, nerves, and blood vessels, causing signs and symptoms related to the specific parts of the body involved. Generalized symptoms like fever, fatigue, and weight loss are also common with many cancers, particularly cancers that have spread beyond their site of origin." ]
+}, 
+{
+    "tag": "causes of cancer",
+    "input": [
+        "What are the common causes of cancer?","causes of cancer","cancer causes",
+        "Can you explain the role of genetics in cancer?","Causes","Tell me the causes of cancer",
+        "How does lifestyle contribute to cancer risk?","What causes cancer?",
+        "Discuss the impact of environmental factors on cancer development.",
+        "Are infections linked to certain types of cancer?",
+        "Explain the connection between age and cancer risk.",
+        "What role does the immune system play in preventing cancer?",
+        "Can hormonal factors influence the development of cancer?",
+        "Discuss the role of diet and nutrition in cancer prevention.",
+        "Are there specific behaviors that can increase the risk of cancer?"
+    ],
+    "responses": [
+        "Common causes of cancer include genetic mutations, lifestyle choices, environmental exposures, infections, aging,exposure to carcinogens, immune system issues, hormonal factors, dietary patterns, and certain behaviors. Genetics can contribute to cancer susceptibility. Lifestyle factors such as smoking, poor diet, and lack of exercise may increase risk. Environmental factors like exposure to carcinogens can also play a role.\nSome infections, like certain viruses, are linked to specific cancers. Age is a significant risk factor, and the immune system helps protect against cancer development."
+    ]
+}
+,{
+    "tag": "cancer prevention",
+    "input": [
+        "What are effective strategies for preventing cancer?","cancer prevention","techniques to prevent cancer",
+        "How does early detection contribute to cancer prevention?","cancer prevention strategies",
+        "Discuss the importance of vaccination in preventing certain cancers.","prevention of cancer",
+        "Can lifestyle modifications reduce cancer risk?","how to prevent cancer",
+        "Explain the role of regular screenings in cancer prevention.","prevention",
+        "Are there specific dietary recommendations for cancer prevention?",
+        "Discuss the impact of physical activity on cancer risk.",
+        "Can avoiding tobacco and limiting alcohol intake help prevent cancer?",
+        "What role does sun protection play in preventing skin cancer?",
+        "Are there preventive measures for occupational cancer risks?"
+    ],
+    "responses": [
+        "Effective cancer prevention strategies include early detection, vaccination, lifestyle modifications, regular screenings, dietary changes, physical activity, tobacco cessation, limited alcohol intake, sun protection, and occupational safety measures. Early detection through screenings and prompt treatment can improve outcomes. Vaccination against certain viruses, like HPV, helps prevent associated cancers. Lifestyle modifications such as maintaining a healthy diet and being physically active can reduce cancer risk. Avoiding tobacco and limiting alcohol intake are crucial. Sun protection measures and occupational safety practices can also contribute to cancer prevention."
+    ]
+},{
+    "tag": "treat option",
+    "input": [
+        "What are the main modalities used in cancer treatment?","cancer treatment","cancer treatments",
+        "Discuss the role of surgery in cancer treatment.","treatment for cancer",
+        "How does chemotherapy work as a cancer treatment?","treat option","cancer treat option","treat option for cancer",
+        "Explain the principles of radiation therapy in cancer treatment.",
+        "Can targeted therapy specifically address cancer cells?",
+        "Discuss the use of immunotherapy in cancer treatment.","types of cancer treatment",
+        "What role does hormone therapy play in treating hormone-sensitive cancers?",
+        "Are there alternative and complementary therapies for cancer treatment?",
+        "Explain the concept of precision medicine in cancer treatment.",
+        "How does palliative care contribute to cancer treatment?"
+    ],
+    "responses": [
+        "\tMain modalities in cancer treatment include surgery, chemotherapy, radiation therapy, targeted therapy, immunotherapy, hormone therapy, precision medicine, and palliative care. Surgery aims to remove tumors and affected tissues. Chemotherapy uses drugs to kill or slow the growth of cancer cells. Radiation therapy uses high-dose radiation to destroy or damage cancer cells. Targeted therapy focuses on specific molecular changes in cancer cells. Immunotherapy stimulates the immune system to fight cancer. Hormone therapy targets hormone-sensitive cancers. Precision medicine tailors treatment based on individual characteristics. Palliative care focuses on improving the quality of life for cancer patients.",
+        "\tSurgery, Chemotherapy, and Radiation therapy are the most common types of treatment for cancer. \n\t\t\t1.In Surgery, cancer is removed from the part of the body as much as possible.\n\t\t\t2.In Chemotherapy, with the help of medicines, toxic cells that are rapidly dividing cancer cells are killed.\n\t\t\t 3.Radiation therapy, powerful radiation is used in the body to kill the cells of cancer."
+    ]
+},{
+    "tag": "cancer survivorship",
+    "input": [
+    "What is cancer survivorship?","cancer survivorship","survivorship",
+    "Discuss the challenges faced by cancer survivors.",
+    "How can survivorship care plans benefit cancer survivors?",
+    "Explain the importance of follow-up care for cancer survivors.",
+    "What role does rehabilitation play in the survivorship phase?",
+    "Discuss the emotional and psychological aspects of cancer survivorship.",
+    "How can support groups contribute to the well-being of cancer survivors?",
+    "What are some long-term effects of cancer treatment on survivors?",
+    "Explain the concept of late effects in cancer survivorship.",
+    "Can lifestyle choices impact the long-term health of cancer survivors?"
+    ],
+    "responses": [
+    "Cancer survivorship refers to the period after completing cancer treatment when individuals continue to live with and beyond the disease. It encompasses the physical, emotional, and psychosocial aspects of life after cancer.",
+    "Cancer survivors face various challenges, including physical and emotional effects of treatment, fear of recurrence, and adjusting to life post-treatment. Managing these challenges requires ongoing support and care.",
+    "Survivorship care plans outline the individualized post-treatment care that cancer survivors should receive. They include information on monitoring, potential late effects, and strategies for maintaining overall health.",
+    "Follow-up care is crucial for monitoring survivors' health, addressing potential complications, and providing guidance on healthy living. Regular check-ups and screenings are essential components of follow-up care.",
+    "Rehabilitation in the survivorship phase focuses on restoring physical function and addressing any lingering treatment-related side effects. It aims to enhance the overall well-being of cancer survivors.",
+    "The emotional and psychological aspects of cancer survivorship involve coping with the impact of cancer on mental health, addressing anxiety and depression, and adapting to life after treatment.",
+    "Support groups provide a valuable network for cancer survivors to share experiences, offer encouragement, and receive emotional support. Connecting with others who have gone through similar experiences contributes to the overall well-being of survivors.",
+    "Long-term effects of cancer treatment may include fatigue, cognitive changes, and musculoskeletal issues. Survivorship care aims to address these effects and enhance the quality of life for cancer survivors.",
+    "Late effects in cancer survivorship refer to health issues that emerge months or years after completing treatment. These effects may result from the direct impact of cancer treatment on the body.",
+    "Lifestyle choices, including diet, exercise, and tobacco use, can significantly impact the long-term health of cancer survivors. Adopting a healthy lifestyle contributes to overall well-being and reduces the risk of certain late effects."
+    ]
+    },
+
+ {
+    "tag": "supportive care treatment",
+    "input": [
+        "What is supportive care in cancer treatment?","supportive care","supportive care treatment",
+        "Discuss the role of supportive care in managing cancer symptoms.","cancer supportive care treatment","supportive care treatment for cancer",
+        "How can supportive care improve the quality of life for cancer patients?",
+        "Explain the concept of palliative care in cancer treatment.",
+        "What services are included in a comprehensive supportive care program?","support a cancer person",
+        "Discuss the role of psychological support in cancer care.","How can someone support a loved one with cancer?",
+        "How can nutritional support benefit cancer patients?",
+        "What is the role of physical therapy in supportive cancer care?",
+        "Explain the importance of addressing the spiritual needs of cancer patients.",
+        "Are there community resources available for cancer patients and their families?"
+    ],
+    "responses": [
+        "Supportive care in cancer treatment focuses on managing symptoms, improving quality of life, and addressing the holistic needs of patients. It includes palliative care, psychological support, nutritional support, physical therapy, and addressing spiritual needs. Palliative care aims to relieve symptoms and improve comfort. Services in a comprehensive supportive care program may include pain management, counseling, nutrition guidance, and rehabilitation.\n Psychological support helps patients cope with the emotional impact of cancer. Nutritional support addresses dietary challenges. Physical therapy can improve physical function. Spiritual support recognizes the importance of addressing existential and spiritual needs. Community resources provide additional support for cancer patients and their families.\nEmotional support, understanding, and practical assistance can be crucial. Encouraging open communication and accompanying them to medical appointments are ways to offer support."
+    ]
+},
+{
+    "tag": "cancer clinical trials",
+    "input": [
+        "What are cancer clinical trials?","clinical trails","cancer clinical trials",
+        "Discuss the importance of clinical trials in cancer research.",
+        "How do patients benefit from participating in clinical trials?","clinical trails",
+        "Explain the phases of clinical trials in cancer research.","clinical trails for cancer",
+        "Can you provide examples of innovative cancer treatments developed through clinical trials?",
+        "Discuss the ethical considerations in conducting cancer clinical trials.",
+        "What role do regulatory agencies play in overseeing clinical trials?",
+        "How can patients find and participate in cancer clinical trials?",
+        "Explain the concept of informed consent in clinical trials.",
+        "Are there challenges associated with recruiting participants for clinical trials?"
+    ],
+    "responses": [
+        "Cancer clinical trials are research studies that explore new treatments or interventions for cancer. Clinical trials are crucial for advancing cancer research and improving treatment options. Patients benefit by gaining access to cutting-edge treatments before they become widely available. Clinical trials have different phases, including early-phase trials for safety and later-phase trials for efficacy. Examples of innovative treatments developed through trials include targeted therapies and immunotherapies. Ethical considerations, regulatory oversight, informed consent, and patient recruitment are important aspects of clinical trials."
+    ]
+},{
+    "tag": "cancer genetics",
+    "input": [
+        "How do genetic mutations contribute to cancer development?","cancer genetics","genetics in cancer","genetics",
+        "Can inherited gene mutations increase the risk of cancer?","Can cancer be inherited? ",
+        "Discuss the role of genetic testing in identifying cancer susceptibility.","Is cancer genetic?",
+        "Are there specific genes associated with certain types of cancer?","genetic mutations",
+        "Explain the concept of tumor suppressor genes and oncogenes.","Is cancer caused by genes or genetics?",
+        "How do somatic mutations differ from germline mutations in cancer?",
+        "Discuss the importance of genetic counseling for individuals with a family history of cancer.",
+        "Can targeted therapies be designed based on genetic mutations in cancer?",
+        "Explain the significance of precision medicine in cancer genetics.",
+        "Are there ongoing research initiatives in cancer genomics?"
+    ],
+    "responses": [
+        "Cancer is ,in fact a \"genetic disease\". This is because cancer is caused by mutations or changes to genes that control the way our cells function, causing them to behave irregularly. \nThese mutations can be inherited, as they are in about 5-10 percent of all cancer cases, but it’s much more likely that these gene changes occur during a person’s lifetime due to other factors besides genetics.\nWhen someone has a known family history of hereditary cancer, genetic testing is often recommended.Genetic mutations play a key role in cancer development, and inherited gene mutations can increase cancer risk. Genetic testing helps identify susceptibility, and specific genes are associated with certain cancers. Tumor suppressor genes regulate cell growth, while oncogenes promote it. Somatic mutations occur in body cells, while germline mutations are inherited. \nGenetic counseling is crucial for those with a family history. Targeted therapies are designed based on genetic mutations, and precision medicine tailors treatments to individual genetic profiles. Ongoing research explores the complexities of cancer genomics."
+    ]
+}
+,{
+    "tag": "cancer and mental health",
+    "input": [
+        "How does a cancer diagnosis impact mental health?","cancer mental health","cancer impact mental health",
+        "Discuss the emotional challenges faced by individuals undergoing cancer treatment.","cancer and mental health",
+        "Can anxiety and depression be common during and after cancer treatment?","how cancer affect mental health","if/whether cancer affect mental health ?",
+        "Explain the role of mental health professionals in cancer care.","mental health","does cancer affect mental health",
+        "How can support groups and counseling benefit cancer patients' mental well-being?",
+        "Discuss the importance of addressing psychological needs in cancer survivorship.",
+        "What strategies can individuals use to cope with the emotional impact of cancer?",
+        "Can integrative therapies contribute to mental health support in cancer care?",
+        "Explain the concept of cancer-related fatigue and its impact on mental health.",
+        "Are there initiatives promoting mental health awareness in cancer care?"
+    ],
+    "responses": [
+        "A cancer diagnosis can significantly impact mental health, leading to emotional challenges during treatment. Anxiety and depression are common in cancer patients. Mental health professionals play a crucial role in providing support. Support groups, counseling, and addressing psychological needs are essential for mental well-being. Survivorship requires attention to psychological aspects. Coping strategies, integrative therapies, and addressing cancer-related fatigue contribute to mental health support. Initiatives promoting mental health awareness in cancer care aim to enhance the overall well-being of individuals."
+    ]
+}
+,
+{
+    "tag": "cancer statistics",
+    "input": [
+        "What are the global statistics on cancer incidence and mortality?","cancer statistics",
+        "Discuss regional variations in cancer rates and types.","statistics of cancer","tell me the statistics of cancer",
+        "How do socioeconomic factors impact cancer outcomes worldwide?","can you please provide the statistics of cancer ?",
+        "Explain disparities in cancer access and healthcare in different countries.",
+        "Can lifestyle choices contribute to variations in global cancer patterns?",
+        "Discuss the role of infectious agents in cancer prevalence in certain regions.",
+        "What initiatives are in place to address global cancer burden?",
+        "Explain the impact of environmental factors on cancer rates across the world.",
+        "Are there cultural factors influencing cancer awareness and prevention globally?",
+        "Discuss the importance of international collaboration in cancer research."
+    ],
+    "responses": [
+        "Global cancer statistics vary in terms of incidence and mortality rates. Regional variations exist, influenced by socioeconomic factors, disparities in healthcare access, lifestyle choices, infectious agents, and environmental factors. Initiatives address the global cancer burden, and cultural factors impact awareness and prevention. International collaboration is crucial in advancing cancer research and developing strategies for prevention and treatment. Understanding the complexities of global cancer patterns is essential for implementing effective public health measures worldwide."
+    ]
+}
+,{
+    "tag": "immunotherapy",
+    "input": [
+        "How does immunotherapy work in cancer treatment?","cancer immunotherapy",
+        "Discuss the different types of immunotherapy for cancer.","immunotherapy",
+        "Can you explain the concept of checkpoint inhibitors?","define cancer immunotherapy","immunotherapy in cancer",
+        "What role does CAR-T cell therapy play in cancer immunotherapy?",
+        "Tell me about the challenges and successes of cancer immunotherapy.",
+        "Explain the importance of the immune system in fighting cancer.",
+        "Are there side effects associated with immunotherapy?",
+        "What types of cancers respond well to immunotherapy?",
+        "Can immunotherapy be combined with other cancer treatments?",
+        "What is the latest research in cancer immunotherapy?"
+    ],
+    "responses": [
+        "Immunotherapy enhances the body's immune system to fight cancer. Types include checkpoint inhibitors and CAR-T cell therapy. Checkpoint inhibitors block proteins that limit immune responses. CAR-T cell therapy involves modifying immune cells to target cancer. Successes include long-term remission in some patients. The immune system plays a crucial role in recognizing and destroying cancer cells. Side effects may include fatigue and immune-related reactions. Some cancers, like melanoma and lung cancer, respond well. Combination therapies are being explored. Ongoing research focuses on improving efficacy and expanding applications."
+    ]
+},{
+    "tag": "pain management",
+    "input": [
+        "How is pain managed in cancer patients?","cancer pain management","pain management",
+        "Discuss the importance of personalized pain management plans.",
+        "Can you explain the role of opioids in cancer pain relief?",
+        "What alternative therapies are used for cancer pain?",
+        "Tell me about the challenges in balancing pain relief and opioid use.",
+        "Explain the psychological aspects of cancer pain.",
+        "Are there non-pharmacological approaches to cancer pain management?",
+        "How does palliative care address cancer-related pain?",
+        "Can you share success stories in cancer pain management?",
+        "What is the latest in cancer pain management research?"
+    ],
+    "responses": [
+        "Cancer pain is managed through personalized plans addressing physical and psychological aspects. Opioids play a role in severe pain relief. Alternative therapies include acupuncture and massage. Balancing pain relief and avoiding opioid misuse is challenging. Psychological factors impact pain perception. Non-pharmacological approaches include physical therapy. Palliative care focuses on improving quality of life, including pain management. Success stories highlight improved comfort and function. Research explores new medications and interventions for enhanced cancer pain control."
+    ]
+},
+{
+    "tag": "cancer nutrition",
+    "input": [
+        "How does nutrition impact cancer risk?","lack of nurtition causes cancer","cancer nutrition",
+        "Discuss the role of a balanced diet in cancer prevention.","does lack of nutrirtion causes cancer","what nutrition does we need to have to relive from cancer?",
+        "Can specific foods increase or decrease cancer risk?",
+        "What dietary recommendations are given to cancer patients during treatment?",
+        "Tell me about nutritional challenges faced by cancer patients.",
+        "Explain the importance of maintaining a healthy weight during and after cancer treatment.",
+        "Are there dietary supplements recommended for cancer patients?",
+        "How does nutrition contribute to cancer survivorship?",
+        "Can diet influence cancer recurrence?",
+        "What is the latest research on nutrition and cancer?"
+    ],
+    "responses": [
+        "Nutrition influences cancer risk; a balanced diet aids prevention. Specific foods may impact risk, e.g., fruits and vegetables lower risk. Cancer patients are advised to maintain a healthy diet during treatment. Nutritional challenges include appetite loss and taste changes. Healthy weight is crucial for better outcomes. Some patients may need dietary supplements. Nutrition plays a role in post-treatment survivorship. Diet may influence cancer recurrence; research is ongoing. Latest studies explore the impact of specific nutrients and dietary patterns on cancer prevention and treatment outcomes."
+    ]
+}
+,{
+    "tag": "screening",
+    "input": [
+        "What are the general guidelines for cancer screenings?","cancer screening","screening",
+        "Discuss the importance of early detection through screenings.",
+        "Can you explain the differences between various cancer screening methods?",
+        "What factors influence the frequency of cancer screenings?","screenings",
+        "Tell me about the controversies and challenges in cancer screening.",
+        "Explain the role of genetic testing in cancer screening.",
+        "Are there specific guidelines for cancer screenings in high-risk individuals?",
+        "How do screenings contribute to cancer prevention?",
+        "Can you share success stories in early cancer detection?",
+        "What is the latest in cancer screening research?"
+    ],
+    "responses": [
+        "General guidelines recommend screenings for specific cancers based on age and risk factors. Early detection through screenings improves treatment outcomes. Various methods include mammography, colonoscopy, and Pap smears. Screening frequency depends on age, gender, and risk factors. Controversies include overdiagnosis and false positives. Genetic testing aids in identifying hereditary risks. High-risk individuals may have specific screening guidelines. Screenings contribute to preventing advanced-stage cancers. Success stories emphasize early intervention and improved survival. Ongoing research focuses on refining screening methods and individualized approaches."
+    ]
+},{
+    "tag": "cancer survivorship programs",
+    "input": [
+        "What are cancer survivorship programs?","cancer surviorship programs","surviorship programs",
+        "Discuss the components of a comprehensive survivorship care plan.",
+        "Can you explain the role of survivorship care in enhancing quality of life?",
+        "What challenges do cancer survivors face after treatment completion?",
+        "Tell me about survivorship programs for specific cancer types.",
+        "Explain the importance of addressing psychological well-being in survivorship programs.",
+        "Are there community resources available for cancer survivors?",
+        "How do survivorship programs support long-term health and wellness?",
+        "Can you share success stories from cancer survivorship programs?",
+        "What is the latest in survivorship program research?"
+    ],
+    "responses": [
+        "Cancer survivorship programs provide support post-treatment. Comprehensive care plans include physical and psychological aspects. Survivorship care enhances quality of life and addresses challenges. Programs may be tailored to specific cancer types. Addressing psychological well-being is crucial in survivorship care. Community resources offer additional support. Survivorship programs support long-term health and wellness through education and interventions. Success stories highlight improved health and resilience. Ongoing research explores the effectiveness of survivorship programs and identifies best practices."
+    ]
+},{
+    "tag": "cancer and exercise",
+    "input": [
+        "What role does exercise play in cancer prevention?","cancer and exercise","excersie for cancer",
+        "Discuss the benefits of physical activity during cancer treatment.",
+        "Can you explain the impact of exercise on cancer-related fatigue?",
+        "What types of exercises are recommended for cancer patients?",
+        "Tell me about exercise programs specifically designed for cancer survivors.",
+        "Explain the role of exercise in reducing the risk of cancer recurrence.",
+        "Are there challenges in implementing exercise programs for cancer patients?",
+        "How does exercise contribute to overall well-being in cancer survivors?",
+        "Can you share success stories of individuals incorporating exercise into their cancer journey?",
+        "What is the latest in research on exercise and cancer?"
+    ],
+    "responses": [
+        "Exercise reduces cancer risk by promoting overall health. Physical activity during cancer treatment offers numerous benefits, including improved mood, increased energy, and enhanced treatment tolerance. Regular exercise has been shown to alleviate cancer-related fatigue, a common side effect of treatment. Recommended exercises for cancer patients include moderate aerobic activities, strength training, and flexibility exercises, tailored to individual capabilities and medical conditions.",
+        "Exercise programs designed for cancer survivors focus on gradually rebuilding strength and endurance. These programs often include a combination of aerobic exercises, resistance training, and activities to improve flexibility and balance. They are adapted to the individual's fitness level and any physical limitations resulting from cancer or its treatment.",
+        "Research suggests that regular exercise can contribute to reducing the risk of cancer recurrence in certain cancer types. Engaging in physical activity helps maintain a healthy weight, improves immune function, and may have direct effects on slowing the growth of cancer cells.",
+        "Challenges in implementing exercise programs for cancer patients include variations in individual fitness levels, treatment-related side effects, and potential concerns about safety. Healthcare providers often work closely with patients to develop personalized exercise plans that address these challenges and align with their overall treatment goals.",
+        "Exercise contributes to the overall well-being of cancer survivors by fostering a sense of control, reducing stress and anxiety, and enhancing social connections. Physical activity has been linked to improved quality of life, emotional well-being, and a sense of empowerment for individuals who have completed cancer treatment.",
+        "Success stories abound of individuals who, despite the challenges of cancer, have incorporated exercise into their journey and experienced significant improvements in their physical and emotional well-being. These stories emphasize the resilience and transformative power of regular physical activity in the face of a cancer diagnosis.",
+        "The latest research on exercise and cancer explores the specific mechanisms through which physical activity impacts cancer risk, treatment outcomes, and survivorship. Studies focus on identifying optimal exercise regimens, understanding the molecular pathways involved, and evaluating the long-term effects of exercise on different cancer types."
+    ]
+}
+,
+
+     {
+ "tag":"types of cancer",
+        "input" : ["What are the  types of cancer?","List out the types of cancer?", "Can you list out the types of cancer?",
+      "Tell me the types of cancer?","What are the most common types of cancer?","Types of cancer","types of cancer","cancer types"],
+        "responses":
+      [ "\nCancer is not just one disease but rather a group of diseases, all of which cause cells in the body to change and grow out of control.Some of them are, \n\t1.Pediatric Cancer \n\t2. Breast Cancer \n\t3 3.Lung Cancer \n\t4. Skin Cancer  \n\t5. Prostate Cancer  \n\t6. Colon Cancer  \n\t7. Ovarian Cancer  \n\t8. Pancreatic Cancer  \n\t9. Head and Neck Cancer \n\t10. Liver Cancer"
+     ]
+          }, 
+      {
+        "tag": "pediatric cancer",
+        "input": [
+            "what is pediatric cancer?","define pediatric cancer","pediatric cancer",
+            "What are the common types of cancer in children?","cancer in children","pediatric cancer",
+            "Discuss the challenges in diagnosing and treating pediatric cancer.",
+            "How do treatments for childhood cancer differ from those in adults?",
+            "Explain the role of pediatric oncologists in cancer care for children.",
+            "Can childhood cancer survivors face long-term health issues?",
+            "Discuss the impact of cancer on the emotional well-being of children and their families.",
+            "What support services are available for families dealing with pediatric cancer?",
+            "Are there ongoing research efforts focused on pediatric cancer treatments?",
+            "Explain the importance of pediatric cancer awareness and advocacy.",
+            "Can lifestyle factors contribute to the risk of pediatric cancer?"
+        ],
+        "responses": ["Pediatric cancer refers to cancer that occurs in children and adolescents.\nThe types of cancer that affect children can be different from those that affect adults.It is a broad term that encompasses various types of cancer that can affect individuals from birth to 18 years of age.Common types of pediatric cancer include leukemia (cancer of the blood and bone marrow), brain tumors, neuroblastoma, Wilms tumor (a kidney cancer), lymphoma, and others.\n\tThe causes of pediatric cancer are not always well understood, and they can be influenced by a combination of genetic and environmental factors. Treatment for pediatric cancer often involves a combination of surgery, chemotherapy, radiation therapy, immunotherapy, and other specialized treatments."]
+          
+        
+        }
+    
+       ,
+        {
+            "tag": "breast cancer",
+            "input": [
+                "what is breast cancer?","define breast cancer",
+                "breast cancer",
+                "How is breast cancer diagnosed?","Name the most common cancer in the world, due to which women died?",
+                "cancer mostly affect for women",
+                 "women mostly affect by","cancer in women",
+                "Tell me about breast cancer prevention.",
+                "Explain the importance of mammograms.",
+                "Can you discuss breast cancer survival rates?",
+                "Are there risk factors for developing breast cancer?",
+                "Tell me about the role of genetics in breast cancer.",
+                "How does hormone therapy work for breast cancer?",
+                "What is triple-negative breast cancer?"
+            ],
+            "responses": [
+                "Breast cancer is a type of cancer that originates in the cells of the breast, commonly forming a lump.Early detection through screening and advancements in treatment contribute to improved outcomes."
+            ]    
+      }, 
+      {
+        "tag": "lung cancer",
+        "input": [
+            "what is lung cancer?","define lung cancer",
+            "What are the main causes of lung cancer?","lung cancer",
+          "lungs cancer","lungs",
+            "How is lung cancer diagnosed?","Name the most common type of cancer that kills men in the world?",
+            "kills men","type of cancer kills men","cancer kills men","mens affected by cancer","men have cancer","cancer affect men",
+            "Discuss the link between smoking and lung cancer.",
+            "Are there non-smoking-related risk factors for lung cancer?",
+            "What is targeted therapy for lung cancer?",
+            "Explain the role of immunotherapy in lung cancer.",
+            "Can you share lung cancer survival statistics?",
+            "Tell me about advancements in lung cancer research."
+        ],
+        "responses": [
+            "Lung cancer is a malignancy that begins in the lungs, often linked to smoking or exposure to carcinogens. It is a leading cause of cancer-related deaths worldwide. Main causes of lung cancer include smoking and exposure to radon. Symptoms may include persistent cough and chest pain. Diagnosis involves imaging and biopsy."
+        ]
+    },
+    {
+        "tag": "skin cancer",
+        "input": [
+            "what is skin cancer?","define skin cancer",
+            "What are the types of skin cancer?","skin cancer",
+            "Explain the ABCDEs of skin cancer detection.",
+            "How is skin cancer diagnosed?","most common form of cancer in all humans","cancer in all humans",
+            "Discuss the importance of sun protection.",
+            "Are there risk factors for developing skin cancer?",
+            "What is Mohs surgery for skin cancer?",
+            "Explain the role of immunotherapy in skin cancer.",
+            "Can you share skin cancer survival statistics?",
+            "Tell me about advancements in skin cancer research."
+        ],
+        "responses": [
+            "Skin cancer is the uncontrolled growth of abnormal skin cells, usually caused by ultraviolet (UV) radiation from the sun or tanning beds.Regular skin examinations and sun protection measures help prevent and detect it early.Types of skin cancer include basal cell carcinoma, squamous cell carcinoma, and melanoma. ABCDEs aid in detecting skin cancer: Asymmetry, Border irregularity, Color changes, Diameter larger than a pencil eraser, Evolving size, shape, or color. Diagnosis involves biopsy. Treatments include surgery, radiation, and immunotherapy. Sun protection is crucial for prevention. Risk factors include UV exposure and family history. Mohs surgery removes skin cancer layer by layer. Immunotherapy enhances the immune response. Survival rates vary by type and stage. Research explores new treatments and prevention strategies."
+        ,"The most common form of cancer overall in both men and women is skin cancer. Ultraviolet light, which is part of sunlight, is the main cause of skin cancers. There are three main types of skin cancer: basal cell carcinoma, squamous cell carcinoma, and melanoma.\n\t\t\tSkin sores that will not heal and changes in appearance of the skin in localized areas such as a new growth and/or skin color changes are common warning signs of skin cancer. Such changes in the appearance of the skin that last longer than a couple of weeks should be evaluated by your physician."]
+    },{
+        "tag": "prostate cancer",
+        "input": [
+            "what is prostate cancer?","define prostate cancer",
+          "prostate cancer",
+            "How is prostate cancer diagnosed?",
+            "Discuss the role of PSA testing in prostate cancer.",
+            "Can you explain the Gleason score for prostate cancer?",
+            "What is active surveillance for prostate cancer?",
+            "Explain the link between genetics and prostate cancer.",
+            "Tell me about hormone therapy for prostate cancer.",
+            "Can you share prostate cancer survival statistics?",
+            "What is the latest in prostate cancer research?"
+        ],
+        "responses": [
+            "Prostate cancer is a malignancy that occurs in the prostate, a small gland producing seminal fluid in men. It is one of the most common cancers in men, often diagnosed through prostate-specific antigen (PSA) testing and digital rectal exams."
+        ]
+    },
+    {
+        "tag": "colon cancer",
+        "input": [
+            "what is colon cancer?","define colon cancer",
+              "colon cancer",
+            "How is colon cancer diagnosed?",
+            "Discuss the role of colonoscopy in colon cancer detection.",
+            "Can you explain the stages of colon cancer?",
+            "What are the treatment options for colon cancer?",
+            "Tell me about chemotherapy for colon cancer.",
+            "Explain the link between diet and colon cancer.",
+            "Can you share colon cancer survival statistics?",
+            "What is the latest in colon cancer research?"
+        ],
+        "responses": [
+            "Colon cancer is a type of cancer that forms in the colon or rectum and typically arises from precancerous polyps.Screening tests such as colonoscopies help detect and prevent this cancer through the removal of polyps."
+        ]
+    },
+    {
+        "tag": "ovarian cancer",
+        "input": [
+            "what is ovarian cancer?",
+           "ovarian cancer","ovarian",
+            "How is ovarian cancer diagnosed?",
+            "Discuss the role of surgery in ovarian cancer.",
+            "Can you explain the stages of ovarian cancer?",
+            "What is the link between genetics and ovarian cancer?",
+            "Tell me about chemotherapy for ovarian cancer.",
+            "Explain the role of targeted therapy in ovarian cancer.",
+            "Can you share ovarian cancer survival statistics?",
+            "What is the latest in ovarian cancer research?"
+        ],
+        "responses": [
+            "Ovarian cancer is a type of cancer that originates in the ovaries, often with vague symptoms and late-stage detection.Early diagnosis is challenging, and treatment typically involves surgery and chemotherapy.Ovarian cancer symptoms may include abdominal bloating and pelvic pain. Diagnosis involves imaging and biopsy. Treatments include surgery, chemotherapy, and targeted therapy. Surgery aims to remove tumors and affected tissues. Stages range from I to IV based on spread. Genetics, including BRCA mutations, can increase risk. Chemotherapy targets rapidly dividing cells. Targeted therapy focuses on specific molecules. Survival rates vary by stage and treatment. Ongoing research explores new treatment approaches and understanding ovarian cancer biology."
+,"Ovarian cancer is the most deadly of all cancers for women because most ovarian cancers are not detected early and the cancer cells have spread beyond the ovaries to the pelvis and lymph nodes when they are first detected. Unfortunately, symptoms of ovarian cancers often only appear in the late stages of ovarian cancers (late-stage cancers are difficult to treat)."]  }, 
+        {
+            "tag": "pancreatic cancer",
+            "input": [
+                "pancreatic cancer",
+                "How is pancreatic cancer diagnosed?",
+                "Discuss the role of surgery in pancreatic cancer.",
+                "Can you explain the stages of pancreatic cancer?",
+                "What is the link between diabetes and pancreatic cancer?",
+                "Tell me about radiation therapy for pancreatic cancer.",
+                "Explain the role of immunotherapy in pancreatic cancer.",
+                "Can you share pancreatic cancer survival statistics?",
+                "What is the latest in pancreatic cancer research?"
+            ],
+            "responses": [
+                "Pancreatic cancer is a malignancy that develops in the pancreas, often diagnosed at an advanced stage with a poor prognosis.Surgical intervention, chemotherapy, and other treatments may be utilized, but the disease is challenging to treat successfully." ]
+        } , 
+        {
+            "tag": "cervical cancer",
+            "input": [
+                "cervical cancer",
+                "How is cervical cancer diagnosed?",
+                "Discuss the role of HPV in cervical cancer.",
+                "Can you explain the stages of cervical cancer?",
+                "What is the link between Pap smears and cervical cancer detection?",
+                "Tell me about immunization for HPV prevention.",
+                "Explain the role of targeted therapy in cervical cancer.",
+                "Can you share cervical cancer survival statistics?",
+                "What is the latest in cervical cancer research?"
+            ],
+            "responses": [
+                "Cervical cancer is a type of cancer that starts in the cervix, the lower part of the uterus.It is often linked to human papillomavirus (HPV) infection and can be prevented through vaccination and regular Pap smear screenings.Cervical cancer symptoms may include abnormal bleeding and pelvic pain. Diagnosis involves Pap smears and biopsy. Treatments include surgery, chemotherapy, and radiation. HPV is a significant risk factor. Stages range from 0 to IV based on spread. Pap smears aid in early detection. HPV immunization lowers infection risk. Targeted therapy focuses on specific molecules. Survival rates vary by stage and treatment. Ongoing research explores new prevention strategies and treatment approaches."
+            ]
+        },
+        {
+            "tag": "leukemia",
+            "input": [
+                 "leukemia",
+                "How is leukemia diagnosed?","Name cancer that occurs in the bone marrow and creates blood cells?","cancer in bone marrow","bone marrow",
+                "create blood cells","blood cells","cancer occurs in bone marrow",
+
+                "Discuss the role of chemotherapy in leukemia.",
+                "Can you explain the types of leukemia?",
+                "What is bone marrow transplantation for leukemia?",
+                "Tell me about targeted therapy for leukemia.",
+                "Explain the link between genetics and leukemia.",
+                "Can you share leukemia survival statistics?",
+                "What is the latest in leukemia research?"
+            ],
+            "responses": [
+                "Leukemia is a type of cancer affecting the blood and bone marrow, characterized by the rapid production of abnormal white blood cells.Treatment typically involves chemotherapy, radiation, and stem cell transplantation.Leukemia symptoms may include fatigue and frequent infections.Chemotherapy targets rapidly dividing cells. Types include acute lymphoblastic leukemia (ALL) and chronic myeloid leukemia (CML). Bone marrow transplantation replaces damaged cells with healthy ones. Targeted therapy focuses on specific molecules. Genetics can play a role in leukemia risk. Survival rates vary by type and treatment. Ongoing research explores new treatments and understanding leukemia biology.\n\t\tLeukemia is a cancer of the bone marrow, which creates blood cells.",
+            "Cancers that result from abnormal growth of cells in the blood are termed leukemia. The majority of people diagnosed with leukemia are over 50 years old although leukemia can occur in children. The most common type of leukemia found in children is acute lymphocytic leukemia (ALL)."]
+        }, 
+        {
+            "tag": "liver cancer",
+            "input": [
+               "liver cancer","liver",
+                "How is liver cancer diagnosed?",
+                "Discuss the role of liver transplantation in liver cancer.",
+                "Can you explain the stages of liver cancer?",
+                "What is the link between hepatitis and liver cancer?",
+                "Tell me about ablation therapy for liver cancer.",
+                "Explain the role of immunotherapy in liver cancer.",
+                "Can you share liver cancer survival statistics?",
+                "What is the latest in liver cancer research?"
+            ],
+            "responses": [
+                "Liver cancer symptoms may include abdominal pain and weight loss. Diagnosis involves imaging and biopsy. Treatments include surgery, ablation therapy, and liver transplantation. Surgery aims to remove tumors. Stages range from I to IV based on spread. Hepatitis, especially B and C, increases risk. Ablation therapy destroys cancer cells with heat or cold. Immunotherapy stimulates the immune system. Survival rates vary by stage and treatment. Ongoing research explores new therapies and understanding liver cancer biology."
+            ]
+        }, 
+        {
+            "tag": "thyroid cancer",
+            "input": [
+                "thyroid cancer","thyroid",
+                "Discuss the role of radioactive iodine in thyroid cancer.",
+                "Can you explain the types of thyroid cancer?",
+                "What is thyroid surgery for cancer?",
+                "Tell me about targeted therapy for thyroid cancer.",
+                "Explain the link between genetics and thyroid cancer.",
+                "Can you share thyroid cancer survival statistics?",
+                "What is the latest in thyroid cancer research?"
+            ],
+            "responses": [
+                "Thyroid cancer is a malignancy that develops in the thyroid gland, which regulates metabolism.It is often treatable with surgery, radioactive iodine therapy, and in some cases, hormone therapy.Thyroid cancer symptoms may include a lump in the neck and difficulty swallowing. Diagnosis involves imaging and biopsy. Treatments include surgery, radioactive iodine, and targeted therapy. Radioactive iodine targets thyroid cells. Types include papillary, follicular, and medullSurgery removes part or all of the thyroid. Targeted therapy focuses on specific molecules. Genetics can influence thyroid cancer risk. Survival rates vary by type and treatment. Ongoing research explores new therapies and understanding thyroid cancer biology."
+            ]
+        }, 
+        {
+            "tag": "bladder cancer",
+            "input": [
+              "bladder cancer",
+                "Discuss the role of immunotherapy in bladder cancer.",
+                "Can you explain the stages of bladder cancer?",
+                "What is bladder preservation therapy?",
+                "Tell me about chemotherapy for bladder cancer.",
+                "Explain the link between smoking and bladder cancer.",
+                "Can you share bladder cancer survival statistics?",
+                "What is the latest in bladder cancer research?"
+            ],
+            "responses": [
+                "Bladder cancer is a type of cancer that forms in the tissues of the bladder, responsible for storing urine.It often presents with blood in the urine and is treated through surgery, chemotherapy, and immunotherapy.Stages range from 0 to IV based on spread. Bladder preservation therapy aims to keep the bladder. Chemotherapy targets cancer cells. Smoking is a significant risk factor. Survival rates vary by stage and treatment. Ongoing research explores new therapies and understanding bladder cancer biology."
+            ]
+        }, 
+        {
+            "tag": "brain cancer",
+            "input": [
+                "brain cancer",
+                "Discuss the role of surgery in brain cancer.",
+                "Can you explain the types of brain tumors?",
+                "What is radiation therapy for brain cancer?",
+                "Tell me about chemotherapy for brain cancer.",
+                "Explain the link between genetics and brain cancer.",
+                "Can you share brain cancer survival statistics?",
+                "What is the latest in brain cancer research?"
+            ],
+            "responses": [
+                "Brain cancer refers to the abnormal growth of cells in the brain, potentially leading to tumors that can be benign or malignant.Treatment may involve surgery, radiation therapy, and chemotherapy, depending on the type and stage of the cancer. Diagnosis involves imaging and biopsy. Treatments include surgery, radiation, and chemotherapy. Surgery aims to remove tumors.Types include gliomas and meningiomas. Radiation therapy targets cancer cells with high doses of radiation. Chemotherapy targets rapidly dividing cells. Genetics can influence brain cancer risk. Survival rates vary by type and treatment. Ongoing research explores new therapies and understanding brain cancer biology."
+            ]
+        }, 
+        {
+            "tag": "esophageal cancer",
+            "input": [
+               "esophageal cancer",
+                "Discuss the role of surgery in esophageal cancer.",
+                "Can you explain the link between acid reflux and esophageal cancer?",
+                "What is chemotherapy for esophageal cancer?",
+                "Tell me about immunotherapy for esophageal cancer.",
+                "Explain the stages of esophageal cancer.",
+                "Can you share esophageal cancer survival statistics?",
+                "What is the latest in esophageal cancer research?"
+            ],
+            "responses": [
+                "Esophageal cancer is a malignancy that develops in the esophagus, the tube connecting the throat to the stomach.Risk factors include smoking and alcohol consumption, and treatment involves surgery, chemotherapy, and radiation therapy.Esophageal cancer symptoms may include difficulty swallowing and weight loss. Diagnosis involves imaging and biopsy. Treatments include surgery, chemotherapy, and immunotherapy. Surgery aims to remove tumors. Chronic acid reflux increases the risk. Chemotherapy targets cancer cells. Immunotherapy stimulates the immune system."
+            ]
+        },{
+            "tag": "head and neck cancer",
+            "input": [
+               "head and neck cancer","head cancer","neck cancer",
+                "How is head and neck cancer diagnosed?","head cancer","neck cancer",
+                "Discuss the role of surgery in head and neck cancer.",
+                "Can you explain the link between HPV and head and neck cancer?",
+                "What is radiation therapy for head and neck cancer?",
+                "Tell me about targeted therapy for head and neck cancer.",
+                "Explain the stages of head and neck cancer.",
+                "Can you share head and neck cancer survival statistics?",
+                "What is the latest in head and neck cancer research?"
+            ],
+            "responses": [
+                "Head and neck cancer encompasses malignancies that develop in the oral cavity, throat, larynx, and other structures.Risk factors include tobacco use and alcohol consumption, and treatment involves surgery, radiation, and sometimes chemotherapy.Head and neck cancer symptoms may include persistent sore throat and changes in voice. Diagnosis involves imaging and biopsy. Treatments include surgery, radiation, and targeted therapy. Surgery aims to remove tumors. HPV infection increases the risk. Radiation therapy targets cancer cells. Targeted therapy focuses on specific molecules. Stages range from I to IV based on spread. Survival rates vary by stage and treatment. Ongoing research explores new therapies and understanding head and neck cancer biology."
+            ]
+        }, 
+        {
+            "tag": "multiple myeloma",
+            "input": [
+                "multiple myeloma","multiple myeloma cancer",
+                "Discuss the role of stem cell transplantation in multiple myeloma.",
+                "Can you explain the link between bone pain and multiple myeloma?",
+                "What is chemotherapy for multiple myeloma?",
+                "Tell me about immunomodulatory drugs for multiple myeloma.",
+                "Explain the stages of multiple myeloma.",
+                "Can you share multiple myeloma survival statistics?",
+                "What is the latest in multiple myeloma research?"
+            ],
+            "responses": [
+                "Multiple myeloma is a type of blood cancer that originates in plasma cells, affecting bone marrow and leading to weakened bones and impaired immune function.Treatment includes chemotherapy, stem cell transplantation, and targeted therapies."
+            ]
+        }, 
+        {
+            "tag": "rectal cancer",
+            "input": [
+                "rectal cancer",
+                "How is rectal cancer diagnosed?",
+                "Discuss the role of surgery in rectal cancer.",
+                "Can you explain the link between colorectal cancer and diet?",
+                "What is chemotherapy for rectal cancer?",
+                "Tell me about radiation therapy for rectal cancer.",
+                "Explain the stages of rectal cancer.",
+                "Can you share rectal cancer survival statistics?",
+                "What is the latest in rectal cancer research?"
+            ],
+            "responses": [
+                "Rectal cancer is a type of cancer that forms in the rectum, the last part of the large intestine, often associated with colorectal cancer.Rectal cancer symptoms may include changes in bowel habits and abdominal pain. Diagnosis involves imaging and biopsy. Treatments include surgery, chemotherapy, and radiation. Surgery aims to remove tumors. Diet high in red and processed meats can increase risk. Chemotherapy targets cancer cells. Radiation therapy targets cancer cells with high doses of radiation. Stages range from I to IV based on spread. Survival rates vary by stage and treatment. Ongoing research explores new therapies and understanding rectal cancer biology."
+            ]
+        }, 
+      
+        {
+            "tag": "testicular cancer",
+            "input": [
+            "testicular cancer",
+                "How is testicular cancer diagnosed?", "testicular cancer",
+                "Discuss the role of surgery in testicular cancer.",
+                "Can you explain the link between undescended testicles and testicular cancer?",
+                "What is chemotherapy for testicular cancer?",
+                "Tell me about surveillance for testicular cancer.",
+                "Explain the stages of testicular cancer.",
+                "Can you share testicular cancer survival statistics?",
+                "What is the latest in testicular cancer research?"
+            ],
+            "responses": [
+                "Testicular cancer is a type of cancer that originates in the testicles, affecting young men predominantly.Testicular cancer symptoms may include a lump or swelling in the testicle. Diagnosis involves imaging and biopsy. Treatments include surgery, chemotherapy, and surveillance. Surgery aims to remove tumors. Undescended testicles increase the risk. Chemotherapy targets cancer cells. Surveillance involves close monitoring without immediate treatment. Stages range from I to III based on factors like lymph node involvement.",
+                "Survival statistics for testicular cancer vary by stage. The overall survival rate is high, especially for early-stage cases. For localized tumors (Stage I), the survival rate is typically over 95%. As the cancer progresses to later stages, such as Stage II or III, the survival rate may decrease, but advancements in treatments have improved outcomes.",
+                "In the latest research on testicular cancer, scientists are exploring innovative treatment approaches, including targeted therapies and immunotherapies. Clinical trials are underway to test new drugs and treatment combinations, aiming to enhance effectiveness and reduce side effects. Researchers are also investigating the genetic and molecular basis of testicular cancer, providing insights into personalized treatment strategies."
+            ]
+        }, 
+        {
+            "tag": "kidney cancer",
+            "input": [
+                "kidney cancer",
+                "How is kidney cancer diagnosed?","kidney","kidney cancer",
+                "Discuss the role of surgery in kidney cancer.",
+                "Can you explain the link between smoking and kidney cancer?",
+                "What is targeted therapy for kidney cancer?",
+                "Tell me about immunotherapy for kidney cancer.",
+                "Explain the stages of kidney cancer.",
+                "Can you share kidney cancer survival statistics?",
+                "What is the latest in kidney cancer research?"
+            ],
+            "responses": [
+                "Kidney cancer, or renal cancer, is a type of cancer that starts in the cells of the kidneys.Kidney cancer symptoms may include blood in the urine and lower back pain. Diagnosis involves imaging and biopsy. Treatments include surgery, targeted therapy, and immunotherapy. Surgery aims to remove tumors. Smoking is a significant risk factor. Targeted therapy focuses on specific genetic changes. Immunotherapy stimulates the immune system. Stages range from I to IV based on spread. Survival rates vary by stage and treatment. Ongoing research explores new therapies and understanding kidney cancer biology."
+            ]
+        }, 
+        {
+            "tag": "gastric cancer",
+            "input": [
+                "gastric cancer","gastric","gastric cancer",
+                "How is gastric cancer diagnosed?","gastric","stomach cancer","stomach","Tell me about gastric cancer treatment options.",
+                "Discuss the role of surgery in gastric cancer.",
+                "Can you explain the link between H. pylori infection and gastric cancer?",
+                "What is chemotherapy for gastric cancer?",
+                "Tell me about targeted therapy for gastric cancer.",
+                "Explain the stages of gastric cancer.",
+                "Can you share gastric cancer survival statistics?",
+                "What is the latest in gastric cancer research?"
+            ],
+            "responses": [
+                "Gastric cancer, or stomach cancer, develops in the lining of the stomach and is often diagnosed at advanced stages.Gastric cancer symptoms may include indigestion and abdominal discomfort. Diagnosis involves imaging and biopsy. Treatments include surgery, chemotherapy, and targeted therapy. Surgery aims to remove tumors. H. pylori infection increases the risk. Chemotherapy targets cancer cells. Targeted therapy focuses on specific molecules. Stages range from I to IV based on spread. Survival rates vary by stage and treatment. Ongoing research explores new therapies and understanding gastric cancer biology.\n\t\t\tLet us tell you that the three most common cancer due to which in the world women die are breast cancer, lung cancer, and stomach cancer."
+            ]
+        }, 
+        {
+            "tag": "uterine cancer",
+            "input": [
+                "uterine cancer",
+                "How is uterine cancer diagnosed?","uterine cancer","uterine",
+                "Discuss the role of surgery in uterine cancer.",
+                "Can you explain the link between hormonal factors and uterine cancer?",
+                "What is radiation therapy for uterine cancer?",
+                "Tell me about chemotherapy for uterine cancer.",
+                "Explain the stages of uterine cancer.",
+                "Can you share uterine cancer survival statistics?",
+                "What is the latest in uterine cancer research?"
+            ],
+            "responses": [
+                "Uterine cancer, or endometrial cancer, originates in the lining of the uterus and is most common among postmenopausal women.Uterine cancer symptoms may include abnormal vaginal bleeding and pelvic pain. Diagnosis involves imaging and biopsy. Treatments include surgery, radiation, and chemotherapy. Surgery aims to remove tumors. Hormonal factors, like estrogen exposure, can increase the risk. Radiation therapy targets cancer cells. Chemotherapy targets rapidly dividing cells. Stages range from I to IV based on spread. Survival rates vary by stage and treatment. Ongoing research explores new therapies and understanding uterine cancer biology."
+            ]
+        }, 
+        {
+            "tag": "melanoma",
+            "input": [
+               "melanoma","melanoma cancer",
+                "Discuss the role of surgery in melanoma.",
+                "Can you explain the link between UV exposure and melanoma?",
+                "What is targeted therapy for melanoma?",
+                "Tell me about immunotherapy for melanoma.",
+                "Explain the stages of melanoma.",
+                "Can you share melanoma survival statistics?",
+                "What is the latest in melanoma research?"
+            ],
+            "responses": [
+                "Melanoma is a type of skin cancer that develops from pigment-producing cells called melanocytes, often linked to sun exposure.Melanoma symptoms may include changes in moles and skin pigmentation. Diagnosis involves biopsy and imaging. Treatments include surgery, targeted therapy, and immunotherapy. Surgery aims to remove tumors. UV exposure is a significant risk factor. Targeted therapy focuses on specific genetic changes. Immunotherapy stimulates the immune system. Stages range from 0 to IV based on factors like tumor thickness and spread. Survival statistics vary by stage and treatment. Ongoing research explores new therapies and early detection methods."
+            ]
+        }, 
+        {
+            "tag": "colorectal cancer",
+            "input": [
+                "colorectal cancer","colorectal",  
+                "Discuss the role of surgery in colorectal cancer.",
+                "Can you explain the link between diet and colorectal cancer?",
+                "What is chemotherapy for colorectal cancer?",
+                "Tell me about screening methods for colorectal cancer.",
+                "Explain the stages of colorectal cancer.",
+                "Can you share colorectal cancer survival statistics?",
+                "What is the latest in colorectal cancer research?"
+            ],
+            "responses": [
+                "Colorectal cancer is a type of cancer that originates in the colon or rectum, often developing from precancerous polyps.Colorectal cancer symptoms may include changes in bowel habits and blood in the stool. Diagnosis involves colonoscopy and imaging. Treatments include surgery, chemotherapy, and targeted therapy. Surgery aims to remove tumors. Diet plays a role in prevention. Chemotherapy targets cancer cells. Screening methods include colonoscopy and fecal tests. Stages range from I to IV based on factors like lymph node involvement. Survival statistics vary by stage and treatment. Ongoing research explores new therapies and early detection methods."
+            ]
+        }, 
+        { "tag": "bone cancer",
+            "input": [
+                "What are the risk factors for bone cancer?","bone cancer",
+               "bone",
+                "Discuss the role of genetics in bone cancer.",
+                "Can you explain the link between Paget's disease and bone cancer?",
+                "Tell me about bone cancer screening methods.",
+                "Explain the stages of bone cancer.",
+                "Can you share bone cancer survival statistics?",
+                "What is the latest in bone cancer research?"
+            ],
+            "responses": [
+                "Bone cancer is a rare form of cancer that originates in the bones, and it can be either primary (starting in the bone) or secondary (resulting from the spread of cancer from elsewhere).Risk factors for bone cancer include genetic predisposition and Paget's disease.Diagnosis involves imaging and biopsy.Genetic factors may contribute to the development of bone cancer. Paget's disease increases the risk of bone cancer. Treatment options for localized bone cancer include surgery and radiation. Screening methods are not standard; diagnosis is often based on symptoms. Stages range from I to IV based on tumor size and spread. Survival statistics vary by stage and treatment. Ongoing research explores new therapeutic approaches and genetic markers."
+            ]
+        } , 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {"tag":"gets cancer" , 
+        "input" : [ "Who gets cancer?","who gets cancer?","Who gets cancer","who gets cancer",
+    "who can get cancer?","who can get cancer","who can be affected by cancer","affected by cancer","gets cancer","affect by cancer","who are they affected by cancer"] ,
+     
+        "responses":  [ "\tAnyone can get cancer, although the risk goes up with age. Your individual risk depends on factors such as whether you smoke, lifestyle choices such as what you eat and how much you exercise, your family history of cancer, and factors in your workplace and environment" ]  },
+    
+    {"tag":"cancer start" , 
+        "input" : ["How does cancer start?","how does cancer start?","How does cancer start","how does cancer start","cancer start","how cancer start"] , 
+        "responses":  [ "\tYour body is made up of many different types of cells. Under normal conditions, cells grow, divide, become old, and die. Then, in most cases, they’re replaced by new cells. But sometimes cells mutate grow out of control, and form a mass, or tumor, instead of dying.\n\t\tTumors can be benign (noncancerous) or malignant (cancerous). Cancerous tumors can attack and kill your body’s tissues. They can also spread to other parts of the body, causing new tumors to form there. This process is called metastasis and it represents cancer that has advanced to a late stage." ]  },
+    
+     {"tag":"contagious" , 
+        "input" : ["Is cancer contagious?","Is Cancer contagious?","cancer contagious?",
+    "Is cancer contagious","cancer contagious","contagious" ] , 
+        "responses":  [ "\tNo. Cancer isn’t like the flu or a cold. You can’t catch cancer from someone who has the disease." ]  },
+    
+    
+    {"tag":"vaccine" , 
+        "input" : ["Is there a vaccine for cancer?","is there a vaccine for cancer?","vaccine for cancer","vaccine for Cancer","vaccine","Do you know any vaccine for cancer?","Is there a vaccine for Cancer?","Vaccine for cancer","Vaccine for Cancer"] , 
+        "responses":  ["\tThere is no vaccine for cancer. But there are vaccines for some viruses that are known to cause cancer, such as the human papillomavirus (HPV) and hepatitis B.\n\t\tHPV can cause cancer and getting vaccinated against it can help protect against the types of HPV that can lead to cervical, anal, throat, and penile cancers, along with some other forms of cancer. The \"HPV VACCINE\" protects against many strains of the virus that can cause these cancers.\n\t\tThe same is true for infection with the hepatitis B virus, which has been linked to liver cancer. Getting vaccinated against hepatitis B can reduce your risk for getting liver cancer. But just like the HPV vaccine, the hepatitis B vaccine doesn’t protect against liver cancer itself. It only protects against the virus that might lead to liver cancer."  ]  },
+    
+    
+    
+    {"tag":"cure" , 
+        "input" : [ "Can cancer be cured?","Can cancer be cured?","cure for cancer","Cure for cancer","Cure for Cancer","cure","Is there any possibility that cancer can be cured?","Cancer is a cureable disease or not?","Cancer is a cureable disease or not?"] , 
+        "responses":  ["\tYes. When cancer treatment appears to be working, your doctor might say the cancer is in remission. A partial remission occurs when the cancer shrinks but doesn’t disappear. A complete remission means there is no longer any sign of cancer.\n\t\tThe longer a cancer is in complete remission, the less likely it is to come back, and at some point your doctor might say the cancer has been cured." ]  },
+    
+    
+    
+    {"tag":"stages" , 
+        "input" : ["stages of cancer","stages in cancer","cancer stages","stages in cancer","What are the stages of cancer","what do you mean by stages of cancer?","stages of cancer","what will be the stages of cancer","Explain the stages of cancer","Tell me the stages of cancer","Cancer stages","stages in cancer","What are the different stages of cancer?","cancer stage","How do you know the stages of cancer ?" ] , 
+        "responses":  [ "\tCancer typically has four stages: I through IV (1 through 4). Some cancers even have a stage 0 (zero). Here’s what these stages mean:\n\n\t\tStage 0: This stage means the cancer is still found in the place it started and hasn’t spread to nearby tissues. Stage 0 cancers are often curable.\n\t\tStage I: This stage usually represents a small tumor or cancer that hasn’t grown deeply into nearby tissues. It’s sometimes called early-stage cancer.\n\t\tStages II and III: Usually these stages represent larger cancers or tumors that have grown more deeply into nearby tissues. They also may have spread to lymph nodes. However, they haven’t spread to other organs or parts of the body.\n\t\tStage IV: Cancer in this stage has spread to other organs or parts of the body. It may be referred to as metastatic or advanced cancer." ]  },
+    
+    
+    
+     {"tag":"drugs" , 
+        "input" : ["How do cancer drugs work?","drugs","drugs for cancer","drugs to destroy cancer","drugs to cure cancer","What drug is used to cure cancer ?","drugs","what are the drugs available to get rid of cancer ?","destroy cancer"] , 
+        "responses":  [ "\tChemotherapy uses drugs to destroy cancer cells. But chemotherapy drugs can also harm healthy cells, leading to treatment side effects.\n\tNewer drugs, called targeted drugs, block genes or proteins found in the cancer cells. Targeted therapy usually causes less harm to healthy cells, but it still has side effects.\n\tImmunotherapy uses hormones and other drugs that work with your immune system to treat cancer." ]  }, 
+    
+    
+    
+     {"tag":"test" , 
+        "input" : ["When should I get tested for cancer?","test","test for cancer","when to get test for cancer","cancer test" ] , 
+        "responses":  ["\tRecommendations for the types of screening tests and the ages you should get them vary according to cancer type. So, it’s a good idea to have a conversation with your doctor about what type of test you might need and when"  ]  }, 
+    
+    
+     {"tag":"people get cancer" , 
+        "input" : ["Why do some people get cancer and not others?","people get cancer","Why do some people get cancer?","Why do people get cancer","Why people get cancer","someone get cancer","why only few get cancer","others not get cancer","why some people are not affected by cancer","few people get cancer","How only few people are affected by cancer?","what causes people to get cancer among many people","people not get others","What causes cancer in certain individuals while others remain unaffected?"] , 
+        "responses":  [ "\tIn a few cancers such as retinoblastoma and in a small portion of the more common cancers such as a small proportion of breast and ovarian cancers there seems to be an inherited factor that researchers can partly identify. In most cancers, doctors assume that a person’s cells have a low threshold for becoming malignant.\n\t\tSo that person will develop a cancer with relatively less prompting by a trigger such as cigarettes or the sun than another person whose cells have a higher threshold and who may be able to tolerate more exposure to a trigger without developing a cancer." ]  }, 
+    
+    
+    {"tag":"epidemic" , 
+        "input" : ["Is there an epidemic of cancer?","epidemic","epidemic of cancer","epidemic","rapid increase in cancer","rapid increase","increase in cancer","Does cancer increase rapidly?","Has there been a rise in the occurrence of cancer?","rise in cancer"] , 
+        "responses":  [ "\tCancer is common, but it's not really an epidemic. An epidemic means a very rapid increase in the amount of the disease, and in most cancers there is no real change.\n\t\t\tIn some cancers such as stomach there has been a decrease, and in some cancers such as breast there has been a small, steady increase. This increase may be partly because of better diagnosis."]  }, 
+    
+    
+    
+     {"tag":"eat" , 
+        "input" : ["Do we get cancer from what we eat?","eat","Can the food we eat cause cancer?","Does our diet contribute to the risk of getting cancer?","does food causes cancer","Can eating food leads to cancer?","Do the things we consume lead to the development of cancer?","Is the risk of cancer influenced by our eating habits?","Can food cause cancer?","food cause cancer"] , 
+        "responses":  ["\tYes and no! The high-fat, low-fiber diet common in developed countries may play a role in about a third of all cancers, but doctors don't know this for certain yet.\n\t\t\tThere are no toxins or chemicals in modern foods that are proved to cause cancer. In fact, the opposite is true..For example, the fact that cancer of the stomach is becoming less common may be because of the way foods are preserved.", "\tThe link between food and cancer is complex. There are many different types of cancer and many different causes of cancer, only some of which are understood.\n\t\t\tCancer starts when cells begin to grow out of control. The reason for this change is not always known. Poor eating habits combined with smoking, too little exercise, drinking too much alcohol, being overweight and too much sunlight exposure may, over a long period of time, increase the risk of developing some cancers."]  }, 
+    
+    
+    
+    {"tag":"chemical" , 
+        "input" : ["Are chemicals and pollutants causing cancer?","chemical","Are cancer cases influenced by exposure to chemicals and pollutants?","Does chemicals cause cancer?","Does pollutants cause cancer?","Does pollutions cause cancer?","chemicals","pollutants","chemical cause cancer","pollutants cause cancer","pollution cause cancer"] , 
+        "responses":  [ "In a very small portion of special cases only.In certain jobs, prolonged exposure to a few chemicals may cause certain rare kinds of cancers.Nowadays almost all of these substances have been identified and are regulated." ]  },
+    
+    {"tag":"smoking" , 
+        "input" : ["Does cigarette smoke really cause cancer?","smoking","Is it a fact that smoking cigarettes can bring about cancer?","cigarette cause cancer","Is it true that smoking cigarettes can actually lead to cancer?","Does smoking really result in cancer?","Does smoking actually increase the risk of cancer?","smoking causes cancer","Is there a connection between smoking and cancer?","Is smoking really a big deal when it comes to cancer?"] , 
+        "responses":  ["Yes.Cigarettes cause the vast majority of cancers of the lung. They are a major factor in cancers of the bladder, pancreas, mouth, larynx, esophagus, and kidney.\nt\t\tAbsolutely! Smoking causes the vast majority of lung cancers. It has also been shown to contribute to cancer of the mouth, esophagus, larynx, bladder, kidney and pancreas. If you’re concerned about getting cancer, quitting smoking is one of the best ways to lower your risk." ]  },
+    
+    {"tag":"prevented" , 
+        "input" : ["Can cancer be prevented?","prevented","Is it possible to avoid getting cancer?","Are there effective measures to stop the occurrence of cancer?","Can steps be taken to prevent the onset of cancer?","Is there a way to protect oneself from developing cancer?","prevented","prevent cancer","avoid cancer","stop cancer","cancer be prevented"] , 
+        "responses":  [ "Doctors think a lot of it can. Established preventive methods including not smoking, preventing sun damage, practicing safe sexual behavior, eating a high-fiber, low-fat diet, and having regular Pap tests would reduce the incidence of cancer. It's important to note that many people who develop cancer don't have any known risk factors. But more could probably be prevented if more information was known, so research is very active in this field." ]  }, 
+    
+     {"tag":"diagnosis delayed" , 
+        "input" : ["diagnosis delayed" ,"Why does the diagnosis seem to be so delayed in so many cases?","significant delay in getting diagnosed","delay in diagnosis","diagnosis delayed" ,"frequent delay in diagnosis"] , 
+        "responses":  [ "\tDelay due to : Non-specific Symptoms: Many early symptoms of cancer are non-specific and may resemble other less serious conditions, leading to delayed recognition.\n\t\tLack of Awareness: Patients and healthcare providers may not always recognize the early signs of cancer, contributing to delayed diagnosis.\n\t\tScreening Challenges: In some cases, there may be limitations in effective screening programs, making it challenging to detect cancer at an early, more treatable stage." ]  }, 
+    
+     {"tag":"universal test" , 
+        "input" : ["universal test" , "Why isn’t there a simple, universal test for cancer?","Why there is no simple test for cancer?","no simple test for cancer","no simple test","Why there is enough test for cancer","why there is no small test for cancer?","no small test","no test for cancer","Why isn’t there a single test that can detect all types of cancer?"] , 
+        "responses":  ["\tThere is no simple,universal test for cancer because cancer cells are very similar to normal cells, and a cancer begins with a very small number of cells. In a small number of cancers, certain tests can detect early changes. The best example is cancer of the cervix (the Pap test).\n\t\tAlso, cancer is not one disease but a category of diseases.  For example, breast cancer is much different from lung cancer, so tests to detect or diagnose it are different.","It’s not that easy because cancer is not one disease, but rather a group of diseases. Each type of cancer looks different because it starts off being similar to normal cells in the area where it occurs. In some cases, tests can detect early changes in those cells (such as with Pap tests for cervical cancer), but in others, cancer cells may multiply to produce billions of cells before a tumor is big enough to detect."]  }, 
+    
+     {"tag":"breast cancer causes" , 
+        "input" : ["What causes breast cancer?","breast cancer causes","causes of breast cancer","What are the causes of breast cancer?","occurrence of breast cancer","What leads to the development of breast cancer?" ] , 
+        "responses":  [ "\tStudies have identified numerous risk factors for breast cancer in women, including hormonal, lifestyle and environmental factors that may increase the risk of breast cancer. Other factors include:\n\t1.Increasing age \n\t2.Personal history of breast cancer \n\t3.Early menstruation \n\t4.Late menopause \n\t5.Family history of breast cancer\n\t6.Presence of certain inherited genetic changes" ]  }, 
+    
+     {"tag":"awareness day" , 
+        "input" : ["National Cancer Awareness Day","Cancer Awareness day","awareness day" ,"awareness day for cancer", "Cancer Awareness","When is national cancer awareness day?","when cancer awareness day?" ] , 
+        "responses":  [ "The day is observed on \"November 7\" to spread awareness about cancer, its symptoms, and how to cure it. Globally, cancer is the second leading cause of death. The most common types of cancer that occur in men are lung, prostate, colorectal, stomach, and liver cancer, and among women are breast, colorectal, lung, cervical, and thyroid cancer, according to WHO. Check your knowledge below about types of cancer." ]  },
+    
+    
+    
+     {"tag":"skin or tissue" , 
+        "input" : ["Name cancer that starts in the skin or the tissues that line other organs?","cancer starts in skin","cancer starts in the tissue","skin or tissue","cancer in skin","cancer in tissue"] , 
+        "responses":  [ "Carcinoma is cancer that starts in the skin or tissues that line other organs." ]  },
+    
+    
+     {"tag":"silent killer" , 
+        "input" : ["Name the Cancer which is known as The Silent Killer?","silent killer","liver cancer as silent killer","Is liver cancer is silent killer?","liver cancer also known as" ] , 
+        "responses":  [ " It is seen that the majority of the people who suffer from Liver Cancer seem healthy and show no early signs or symptoms and so, is known as The Silent Killer." ]  },
+    
+     {"tag":"connective tissue" , 
+        "input" : ["connective tissue" , "Name the cancer of connective tissues or cancer that occurs in the connective tissues in the body?","cancer in connective tissues","cancer of connective tissues","connective tissues" ] , 
+        "responses":  [ "The cancer of connective tissues is known as Sarcoma. Connective tissues like bones, muscles, cartilage, and blood vessels. "]  }, 
+        
+        {"tag":"mesothelioma" , 
+        "input" : ["Mesothelioma","thin membrane that covers the chest and abdomen","chest and abdomen","When a thin membrane that covers the chest and abdomen starts to multiply in a rapid and uncontrollable way, then what type of cancer is formed in the body?","mesothelium" ] , 
+        "responses":  [ "A rare type of cancer known as Mesothelioma, develops when the cells of the mesothelium (a thin membrane that covers the chest and abdomen) start to multiply in a rapid and uncontrollable way." ]  },
+    
+     {"tag":"tobacco" , 
+        "input" : [ "tobacco causes cancer","tobacco","cancer caused by tobacco","How many percentage of persons are death by cancer all over the world?","percentage of persons death because of cancer","persons die by cancer"] , 
+        "responses":  [ "About 22% of all Cancer deaths are related to the use of tobacco and consequently, they comprise the single largest group of cancer deaths that are potentially preventable." ]  },
+    
+     {"tag":"hpv hbv" , 
+        "input" : ["Which of the viruses causes cancer resulting from chronic infection?","HPV","HBV","chronic infection","human papilloma virus","hepatitis B virus","cervical, oropharyngeal","penilE", "vaginal","cervical,oropharyngeal,penile, vaginal","Mention the viruses causes cancer","What are the viruses causes cancer resulting from chronic infection?",
+    "What are the viruses causes cancer?","hpv hbv" , "hpv","hbv" ] , 
+        "responses":  [ "About 20% of all cancers that occur worldwide are caused by chronic infections mainly caused by the human papilloma virus (HPV) and hepatitis B virus (HBV). HPV viruses can cause cervical, oropharyngeal (pertaining to the mouth and pharynx), penile, vaginal, and other types of cancer while HBV is associated with developing liver cancer.\n\t\t\tA vaccine is available against HPV; the vaccine can help reduce the chance of getting cancers caused by HPV virus. Similarly, a vaccine is also available against HBV and can reduce or prevent HBV infections and the cancers associated with HBV infections (for example, liver cancer caused by HBV)." ]  },
+    
+     {"tag":"processed meats" , 
+        "input" : ["What kind of foods are linked to colon cancer?","meats","foods linked to colon cancer","processed food", "Processed meats cause colon cancer","processed meats"] , 
+        "responses":  [ "Meat processing involves the addition of preservatives like sodium nitrite or products that enhance color and flavor. The meat is also sometimes smoked, which may also create compounds that might increase cancer risk. \n\t\t\tStudies have shown that consuming large amounts of processed meat is associated with an increased risk of developing colorectal cancer. One potential explanation for this association is that nitrites are added to many lunch meats, hot dogs, ham products, and other processed meats." ]  },
+    
+    
+     {"tag":"risk factor" , 
+        "input" : [ "What is a risk factor?","risk factor","risk","risk factor for cancer","What are the risk factors for cancer?","Mention the risk factors for cancer"] , 
+        "responses":  [ "A risk factor is something that raises the chance of getting a disease. Each cancer has its own risk factors. Having risk factors does not mean that someone will get cancer. Even when a person with a risk factor is found to have cancer, there’s no way to prove that the risk factor caused the cancer.\n\t\t\tSome risk factors, like a person’s age or gene damage, can’t be changed. But some risk factors can be controlled. Tobacco use, contact with secondhand smoke, being in the sun, excess body weight, not being active, drinking alcohol, and not eating a healthy diet are risk factors that can be managed. Other risk factors include getting certain viruses and contact with certain kinds of radiation or chemicals." ]  }, 
+    
+     {"tag":"injuries" , 
+        "input" : ["Can injuries cause cancer?","injuries cause cancer?","injuries"] , 
+        "responses":  [ "Falls, bruises, broken bones, or other such injuries do not cause cancer. Sometimes a person might visit a health care provider for an injury and cancer is found. But the injury did not cause the cancer; the cancer was already there." ]  },
+    
+     {"tag":"emotion" , 
+        "input" : ["Can I bring cancer on myself?","how to be affected by cancer?","how cancer affects me","how to make cancer love me?"] , 
+        "responses":  [ "Your personality and emotions cannot cause cancer and will not affect the outcome of your cancer. Research shows that there is no connection between personality types or attitude and cancer occurrence or outcomes." ]  }, 
+    
+     {"tag":"stress" , 
+        "input" : ["Can stress cause cancer?","stress cause cancer?","stress","depression cause cancer","depression","Will stress cause cancer?","Is depression leads to cancer?","Is stress leads to cancer?"] , 
+        "responses":  [ "Researchers have done many studies to see if there’s a link between personality, attitude, stress, and cancer. It’s known that stress affects the immune system, but so do many other things. At this time, there is no clear evidence that a person's stress level affects their risk of getting cancer." ]  }, 
+    
+     {"tag":"sugar" , 
+        "input" : [ "Does sugar feed cancer?","sugar","sugar increases cancer","sugar feed cancer","Does sugar intake caues cancer?","Will the sugar patients be caused by cancer?","Does the presence of sugar in the body truly support the growth of cancer?","presence of sugar in the body support the growth of cancer","Is it a proven fact that sugar intake plays a role in the nourishment of cancer?"] , 
+        "responses":  [ "Sugar intake has not been shown to increase the risk of getting cancer, having cancer spread, or having it get worse. Still, sugars and sugar-sweetened drinks add a lot of calories to the diet and can cause weight gain, which is linked to cancer." ]  },
+    
+     {"tag":"alcohol" , 
+        "input" : [ "Should I avoid alcohol","alcohol drinking leads to cancer","alcohol" , "drinking alcohol increases cancer","alcohol increases cancer","Does drinking alcohol leads to cancer","alcohol drinking","alcohol drink"] , 
+        "responses":  [ "\tDrinking alcohol increases the risk of developing some cancers, particularly cancers of the mouth, throat, oesophagus, stomach, bowel, liver and breast. Mouth cancers are six times more common in people who drink alcohol than non-drinkers. The type of alcohol you drink – wine, beer, spirits – doesn’t make a difference.\n\t\tBut drinking alcohol doesn’t mean that you’ll definitely get cancer. Your risk will depend on other factors, including your age and genetics.\n\t\tCancer Council recommends drinking less alcohol to reduce your risk of cancer. Drinking less alcohol has lots of other benefits too.It can help reduce your risk of accidents, high blood pressure and liver disease" ]  }, 
+     
+
+
+
+
+
+
+        
+    
+    
+     {"tag":"lung diagnosed" , 
+        "input" : ["How is lung cancer diagnosed?","lung cancer diagnosed?","laung cancer can be diagnoised"] , 
+        "responses":  [  "Your doctor may do one or more of the following procedures tohelp determine if you may have lung cancer :\n\t\t1.Complete medical history \n\t\t2.Physical exam \n\t\t3.Chest X-ray, or other X-ray procedures such as CT (computerized tomography) scann Sputum cytology to determine if there are cancer cells in the sputum \n\t\t4.Needle biopsy of a mass \n\t\t5.Bronchoscopy (a flexible scope inserted into the trachea and main airways) – this may include biopsies or fluid samples \n\t\t6.Other x-rays, scans, or special procedures to obtain biopsies or lookfor spread "]  }, 
+    
+    
+     {"tag":"lung treatment" , 
+        "input" : [ "What are the treatments for lung cancer?","treatments for lung cancer","lung cancer treatments" ] , 
+        "responses":  [ "There are three main treatment options for lung cancer. They may be used separately or in combination. The treatment plan is chosen based on the stage and type of lung cancer. The three treatments are:\n\t\t\t 1.Surgery – removal of all or as much as possible of the tumor \n\t\t\t 2.Chemotherapy – intravenous (i.v.) medicine to kill the cancer \n\t\t\t 3.Radiation therapy – high dose radiation designed to kill the cancer,given in a focused and shielded beam designed to only affect the tumor"  ]  },
+    
+     {"tag":"lung risk" , 
+        "input" : [ "What can I do to reduce my risk of lung cancer?","risk of lung cancer?","reduce my risk of lung cancer","lung cancer risks","lung cancer risk" ] , 
+        "responses":  [ "The most important risk factor for lung cancer is tobacco smoking.Experts estimate 85 to 90% of lung cancers are due to smoking. Thus, the best way to prevent lung cancer is to not smoke. If you already smoke, you can reduce your risk over time by quitting. Additionally, everyone, especially babies and children, should avoid breathing in other people’s smoke. You can also reduce your risk by testing your home for naturally occurring radon. If results of testing are confirmed to be 4 pCi/L or higher, you should fix your home to lower the radonlevel." ]  }, 
+    
+     {"tag":"liver prevention" , 
+        "input" : ["How can liver cancer be prevented?","liver cancer be prevented","prevention for liver cancer","liver cancer prevention","How to prevent liver cancer?"] ,
+         "responses":  [ "Prevention is very important when it comes to a disease like liver cancer. The underlying cause of liver cancer is often liver inflammation and the development of a condition called cirrhosis. In addition to avoidance of drugs and alcohol, infection (such as hepatitis B or C) and obesity can contribute to the development of liver cancer.\n\t\t\tSteps to minimize these risks include vaccination against hepatitis B for those at risk, prompt treatment for patients infected with hepatitis C, and maintaining a healthy weight through diet and exercise." ]  }, 
+    
+     {"tag":"liver detect" , 
+        "input" : [ "liver cancer detected","How is liver cancer detected?","How liver cancer can be detected?","How to find liver cancer?"] , 
+        "responses":  [ "Patients diagnosed at an earlier stage have better outcomes. There are many strategies that are used to detect liver cancer, including frequent imaging studies (ultrasound, computed tomography scan, magnetic resonance imagining) and routine physical exams with blood testing. Several researchers are looking to find the one blood test that will help identify liver cancer much sooner. Until that time, we continue to remain vigilant and screen with a variety of methods to try to catch this disease as early as possible." ]  },
+    
+     {"tag":"fatty liver" , 
+        "input" : ["Are fatty liver disease and liver cancer-related?","fatty liver disease and liver cancer","what's the connection between fatty liver disease and liver cancer?","Are fatty liver disease and liver cancer linked to each other?","Do fatty liver disease and liver cancer have a relationship?","relationship between fatty liver disease and liver cancer"] , 
+        "responses":  [ "Patients who have a very specific type of fatty liver disease (progressing to either non-alcoholic fatty liver disease Non-Alcoholic Fatty Liver Disease (NAFLD), non-alcoholic steatohepatitis (NASH), or cirrhosis) are at an increased risk for developing a cancer in the future. However, that does not mean that it will automatically develop into cancer. The diseases are not considered malignant (cancer)." ]  },
+    
+     {"tag":"pbc" , 
+        "input" : [ "Can primary biliary cirrhosis(PBC) increase the risk of getting liver cancer?","Can primary biliary cirrhosis(PBC) lead to an increased risk of liver cancer?"] , 
+        "responses":  ["Yes.PBC, which causes inflammation and destruction of bile ducts in the liver, can raise your risk for getting cancer of the liver or biliary tree. I recommend you have a frank, open discussion with your hepatologist about your specific risks, the screening program(s) you are eligible for, and your treatment options."  ]  },
+    
+     {"tag":"liver treatment" , 
+        "input" : [ "Are treatments for liver cancer the same as other cancers?","treatments for liver cancer","liver cancer treatments","tell me the treatments for cancer","what are the treatments of cancer?"] , 
+        "responses":  [ "In general, the basic approach of any cancer therapy can also apply to liver cancer. These are:\n\t\t\t1.The treatment of the local disease. In liver cancer, we often address local disease with either surgery (removal of the tumor or even liver transplantation), radiation therapy, ablation, or catheter-directed therapy.\n\t\t\t2.The evaluation and treatment of any disease spread. In liver cancer, disease spread is commonly treated with administration of medications via a pill or an IV infusion depending on your doctor's recommendations." ]  }, 
+    
+     {"tag":"medicines for liver cancer" , 
+        "input" : [ "Are herbal medicines recommended to treat liver cancer?","herbal medicines recommended to treat liver cancer","herbal medicines for liver cancer","medicines for liver cancer","liver cancer medicines"] , 
+        "responses":  [ "The term \"herbal medicine\" can represent thousands of compounds. Unfortunately, most are not rigorously tested or regulated by the companies that produce them, the federal Food and Drug Administration that monitors our drug supply markets, or the physicians that see them in our day-to-day lives.\n\t\t\tSome are likely very safe but some may be harmful. I recommend that all patients taking these types of medications discuss them with their physicians as they would any other medication or unregulated drug they may be consuming."]  }, 
+    
+     {"tag":"liver cyst" , 
+        "input" : [ "Should I be worried if I have a cyst on my liver?","cyst","cyst on my liver","what to do for cyst in liver","liver's chst","tissue grow","Should I feel anxious about having a liver cyst?","Is it necessary to be worried if there's a cyst on my liver?","Do I need to be worried about a cyst on my liver?"] , 
+        "responses":  [ "There is often nothing to worry about with simple cysts in the liver. They can be quite common. When we find cysts that are growing, we will often take extra care to ensure that \n\t\t(1) there is not an associated tumor causing the growth, and \n\t\t(2) that it's not causing problems.This is often discussed over time with your hepatologist and/or surgeon."]  }, 
+    
+     {"tag":"liver backpain" , 
+        "input" : [ "Could upper back pain be a sign of liver cancer?","upper back pain causes liver cancer","Is upper back pain indicative of liver cancer?","Is upper back pain a potential symptom of liver cancer?","symptoms of liver cancer is back pain","Can liver cancer be inferred from the presence of upper back pain?"] , 
+        "responses":  [ "Traditionally we are taught that pain in the right shoulder and back could be due to liver disease, but I would caution you that the list of things that could cause this type of pain is very, very, very long. A patient who is concerned by such pain should seek an appointment with their physician." ]  },
+    
+    {"tag":"genetics of liver" , 
+        "input" : [ "If a parent had/has liver cancer, are their children at greater risk of getting it?","liver cancer occur by genetics","parents liver cancer follows children","Does liver cancer inherit from parents to children?","Does the risk of liver cancer rise for children when a parent has or had the condition?" ] , 
+        "responses":  ["In some cases, yes, a parent with liver cancer can raise your personal risk. However, this is not true for the majority of patients. It’s always good to talk to your primary care doctor about your concerns or questions." ]  }, 
+    
+    {"tag":"death 2020" , 
+        "input" : ["death rate in 2020","cause of death ","cancer in 2020","causes of cancer death in 2020","death worldwide in 2020","death","death in 2020"] , 
+        "responses":  [ "Cancer is a leading cause of death worldwide,accounting for nearly 10 million deaths in 2020. \nThe most common in 2020 (in terms of new cases of cancer) were:\n\t\t1.breast (2.26 million cases) \n\t\t 2.lung (2.21 million cases) \n\t\t 3.colon and rectum (1.93 million cases)\n\t\t 4.prostate (1.41 million cases)\n\t\t 5.skin (non-melanoma) (1.20 million cases) and\n\t\t 6.stomach (1.09 million cases).  \nThe most common causes of cancer death in 2020 were:  \n\t\t 1.lung (1.80 million deaths)\n\t\t 2.colon and rectum (916 000 deaths)\n\t\t 3.liver (830000 deaths) \n\t\t 4.stomach (769000 deaths) and \n\t\t 5.breast (685000 deaths).\nEach year, approximately 4,00,000 children develop cancer.The most common cancers vary between countries. Cervical cancer is the most common in 23 countries." ]  }, 
+    
+    {"tag":"palliative care" , 
+        "input" : ["palliative care","severe cancer pain","psychosocial","oral morphine"] , 
+        "responses":  [ "Palliative care is treatment to relieve, rather than cure, symptoms and suffering caused by cancer and to improve the quality of life of patients and their families.\nPalliative care can help people live more comfortably. It is particularly needed in places with a high proportion of patients in advanced stages of cancer where there is little chance of cure.\nRelief from physical, psychosocial, and spiritual problems through palliative care is possible for more than 90% of patients with advanced stages of cancer.\nEffective public health strategies, comprising community- and home-based care, are essential to provide pain relief and palliative care for patients and their families.\nImproved access to oral morphine is strongly recommended for the treatment of moderate to severe cancer pain, suffered by over 80% of people with cancer in the terminal phase." ]  },
+    
+     {"tag":"world cancer day" , 
+        "input" : [ "World Cancer Day","when is the World Cancer Day?"] , 
+        "responses":  [ "In 2023, the global cancer community commemorates World Cancer Day, on February 4, with the slogan \"Close the care gap\", and the call to unite our voices and take action.\n\t\tWorld Cancer Day is being observed during the ongoing COVID-19 pandemic, where individuals with cancer are at risk of severe symptoms. People with cancer may develop COVID-19 symptoms faster and may require ICU admission if they do not seek medical care. The pandemic has caused disruptions in cancer care, affecting patient access and lives. Lessons learnt during the pandemic can be used to address disruptions and inequities in cancer prevention, care and control.\n\t\tOn World Cancer Day 2023, various activities will take place globally, including the \"5k Challenge\" by the Union for International Cancer Control (UICC), encouraging individuals from all backgrounds to participate in activities such as running, cycling, swimming, hiking or walking to symbolize closing the gap in care. Additionally, there will be \"21-day challenges\" for individuals to create new healthy habits, raise awareness about cervical cancer, and educate themselves about inequalities in accessing cancer services."]  },
+     
+    {"tag":"who report" , 
+        "input" : ["world cancer report","International Agency for Research on Cancer’s (IARC) World Cancer Report","IARC","analysis report of Asia 2020","2020-2040","2040 in cancer"] , 
+        "responses":  [ "According to the World Health Organization (WHO), cancer is the second leading cause of death worldwide, representing nearly 1 in 6 deaths globally.\nIn 2020, the International Agency for Research on Cancer’s (IARC) World Cancer Report released by WHO said that Asia shares 49.3% of the total number of global cases of the deadly disease.\nThe report estimated that from 2020-2040, Asia will report an increase of 59.2% in new cases of the disease.The report further stated that one in 10 Indians would develop cancer in their lifetime and one in 15 would die of it" ]  },
+    
+    
+     {"tag":"history of cancer day" , 
+        "input" : ["History of National Cancer Awareness Day","National Cancer Awareness Day","Cancer Awareness Day","history of cancer day","Tell me about the history of national cancer awareness day","Union Minister of Health and Family Welfare"] , 
+        "responses":  [ "In September 2014, National Cancer Awareness Day was first initiated by Dr. Harsh Vardhan, the Union Minister of Health and Family Welfare in India.\nIn September 2014, a committee was formed and decided that National Cancer Awareness Day would be observed on the 7th of November every year in India with the aim of spreading awareness about the severity of various cancers, their symptoms, and treatment." ]  },
+    
+    {"tag":"cases in 2022" , 
+        "input" : [ "How many people are affected by cancer in 2022 in India?","number of cancer cases in India in 2022","cancer people in 2022 in India","In year 2022,the cancer people rate", "cases in 2022","people affected by cancer in 2022","Count of people affected by cancer in 2022"] , 
+        "responses":  [ "The estimated number of incident cases of cancer in India for the year 2022 was found to be 14,61,427 (crude rate:100.4 per 100,000). In India, one in nine people are likely to develop cancer in his/her lifetime. Lung and breast cancers were the leading sites of cancer in males and females, respectively. Among the childhood (0-14 yr) cancers, lymphoid leukaemia (boys: 29.2% and girls: 24.2%) was the leading site. The incidence of cancer cases is estimated to increase by 12.8 per cent in 2025 as compared to 2020."]  },
+    
+    
+     
+     {"tag":"cases in 2020" , 
+        "input" : [ "cancer cases in 2020 in worldwide","Global Cancer observatory","cancer cases in 2020","GLOBOCAN prediction","cancer cases in India in 2020","India's rank in cancer"] , 
+        "responses":  [ "According to the Global Cancer Observatory (GLOBOCAN) estimates, there were 19.3 million incident cancer cases worldwide for the year 2020. India ranked third after China and the United States of America. GLOBOCAN predicted that cancer cases in India would increase to 2.08 million, accounting for a rise of 57.5 per cent in 2040 from 2020."]  }, 
+    
+    
+    {"tag":"cancer occur" , 
+        "input" : ["In which part of my body can I get cancer?","where we get cancer?","In which place we get cancer?","where body part of cancer","which part of body can we get cancer?","where we get cancer?"] , 
+        "responses":  [ "Cancer can occur in any part of the body. They are usually painless and generally present as swellings or growths. They gradually increase in size and damage the surrounding tissue." ]  },
+    
+    {"tag":"cancer spread" , 
+        "input" : [ "Can Cancer spread from one person to another?","whether Cancer spread from one person to another?","cancer spread from person to person?","cancer spread","spread of cancer"] , 
+        "responses":  [ "Certainly not! Cancer is a non-communicable disease, which does not spread from one person to another. It occurs due to some changes in the cells due to which the cell multiplication becomes uncontrolled. Certain cancers may have a hereditary causation which means a person may be at higher risk of getting cancer if his/ her relatives have had that particular cancer. These cancers are breast, ovarian, colorectal, and other less common cancers" ]  },
+    
+    
+     {"tag":"prevent" , 
+        "input" : ["What can I do to prevent cancer?","how to prevent cancer?","ways to prevent cancer","steps to prevent cancer"] , 
+        "responses":  ["\n1.Avoid tobacco and alcohol\n2.Take healthy food\n3.Indulge in physical activity\n4.Be aware of your body so that you can detect any changes early\n5.Be alert for the warning signs of cancer\nContact a health professional immediately if you come across any suspicious symptom"]  },
+     
+    
+    
+     {"tag":"tumour" , 
+        "input" : ["tumour","types of tumour","three types of tumour","benign tumour","malignant tumour","premalignant tumour","explain the types of tumour"] , 
+        "responses":  [ "A tumour is classified into one of these three types based on its ability to undergo metastasis (spreading):\n1.Benign Tumour\n\t\t\tThese tumours are localized at a particular location in the body. Moreover, it does not spread to the other parts of the body and is generally harmless. However, when a benign tumour occurs in areas such as the brain, it can turn fatal. Treatment often involves surgery and it does not grow back.\n2.Malignant Tumour\n\t\t\tThese tumours are cancerous – meaning that they will grow quickly and spread to other normal tissues of the body. This ability to spread is called metastasis. Usually, cancer cells metastasize when it gets into the bloodstream or the lymph nodes and form secondary tumours across various sites in the body.\n3.Premalignant Tumour\n\t\t\tThis type of tumour may be benign but is observed to have the characteristics of a malignant tumour. It may not have metastasized yet, but it has the potential to turn cancerous. In other words, a premalignant tumour is a type of tumour that has an increased risk of becoming cancer. Benign tumours become premalignant and eventually, malignant." ]  }, 
+    
+     {"tag":"oncology" , 
+        "input" : ["oncology","define oncology","what is oncology?","oncology definition","study of cancer"] , 
+        "responses":  [ "The term oncology literally means a branch of science that deals with tumours and cancers. The word “onco” means bulk, mass, or tumor while “-logy” means study." ]  }, 
+    
+     {"tag":"oncologist" , 
+        "input" : ["types of oncologists","doctor for cancer","cancer specialist","specialist of cancer","specialist for cancer"] , 
+        "responses":  [ "Oncology is the study of cancer. An oncologist is a doctor who treats cancer and provides medical care for a person diagnosed with cancer. An oncologist may also be called a cancer specialist.\nThe field of oncology has 3 major areas based on treatments: medical oncology, radiation oncology, and surgical oncology.\n1.Medical oncologists treat cancer using medication, including chemotherapy, immunotherapy, and targeted therapy.\n2.Radiation oncologists treat cancer using radiation therapy, which is the use of high-energy x-rays or other particles to destroy cancer cells.\n3.Surgical oncologists treat cancer using surgery, including removing the tumor and nearby tissue during a operation. This type of surgeon can also perform certain types of biopsies to help diagnose cancer." ]  }, 
+    
+    {"tag":"types of oncologist" , 
+        "input" : ["Are there different types of oncologists?","types of oncologists","what are the types of oncologists?","explain the types of oncologists","types od doctors treating cancer","Are there various kinds of cancer specialists?","Do different types of oncologists exist?"] , 
+        "responses":  [ "Cancer is a multifaceted illness, which is why there are several different types of oncologists. Some oncologists specialize in certain treatments. Other oncologists specialize in certain kinds of cancer. Here are some examples of the different types of oncologists:\n1.Surgical oncologists :If your biopsy shows cancer cells, this is the healthcare provider who does the surgery to remove cancer that hasn’t spread. They remove your tumor and surrounding tissues. They help you prepare for and recover from your surgery.\n2.Medical oncologists: These healthcare providers treat cancer using chemotherapy, hormonal therapies, immunotherapy and other targeted treatments. People often think of the medical oncologist as their primary cancer doctor. Most medical oncologists also specialize in hematology.\n3.Radiation oncologists: These healthcare providers use radiation therapy that’s tailored to your specific cancer.\n4.Gynecologic oncologists: These oncologists treat gynecologic cancer such as cervical cancer, cancer of the uterus and ovarian cancer.\n5.Pediatric oncologists: These oncologists treat cancers that are more common in children than in adults, such as childhood acute lymphoblastic leukemia, Ewing sarcoma and childhood brain tumors.\n6.Neurological oncologist: These oncologists treat people who have brain tumors and cancer that affects the nervous system." ]  }, 
+    
+    
+    {"tag":"cancer oncology" , 
+        "input" : [ "Why is cancer sometimes called oncology?","alternative for cancer","cancer also known as oncology","cancer - oncology","tumor - cancer - oncology"] , 
+        "responses":  [ "Cancer is an ancient illness. Centuries ago, early Greek and Roman physicians studying cancerous tumors likened cancer to a crab, possibly because spreading tumors resembled legs spreading out from crab bodies. Oncology — the study and treatment of cancer — takes its name from the Greek word “oncos,” which means swelling and refers to the way Greek physicians described how tumors grew." ]  }, 
+    
+    
+    
+    {"tag":"ten cancer hospitals" , 
+        "input" : ["List Of Top 10 Cancer Hospitals In India","top 10 cancer hospitals","cancer hospitals","What are the top 10 cancer hospitals in India that you can list?","What are the names of the top 10 cancer hospitals in India?","What hospitals are included in the top 10 for cancer treatment in India?","ten cancer hospitals in India","cancer hospitals in India" ] , 
+        "responses":  [ "1.All India Institute Of Medical Sciences\n2.Tata Memorial Hospital\n3.3) Kidwai Memorial Institute of Oncology \n4.Indraprastha Apollo Hospitals \n5.BGS Gleneagles Global Hospital \n6.American Oncology Institute \n7.Fortis Hospital \n8.Saifee Hospital \n9.BLK-Max Super Speciality Hospital\n10.Medanta-The Medicity"]  }, 
+    
+    {"tag":"aiims" , 
+        "input" : [ "cancer center in India","AIIMS","AIIMS cancer center"] , 
+        "responses":  [  "AIIMS has a dedicated Cancer Centre, one of India’s best cancer treatment and research facilities. The Cancer Centre is equipped with advanced technology and provides comprehensive cancer care from diagnosis to treatment. It has a multidisciplinary team of doctors, nurses, specialists, and technologists who work together to provide the best treatment for cancer patients.\n\t\tThe Cancer Centre at AIIMS has achieved numerous milestones in cancer research and treatment. It has completed many clinical trials and research projects and developed novel treatments and therapies for cancer patients. It has also been successful in developing new drugs and treatments for rare and difficult-to-treat cancers."]  }, 
+    
+    {"tag":"tamilnadu" , 
+        "input" : [ "Cancer centers  in tamilnadu","Tamilnadu cancer centers","list out some cancer centers in Tamilnadu","Give some cancer hospitals in Tamilnadu","Tamilnadu cancer hospitals","cancer hospitals in Tamilnadu"], 
+        "responses":  [ "1.Onco Foundation Cancer Hospital\n2.Erode Cancer Centre\n3.Care 24 Medical Centre And Hospital \n4.American Oncology Institute (Cancer Hospital) - Coimbatore \n5.Fortis Malar Hospital-Adyar, Chennai \n6.Dr.Kamakshi Memorial Hospital \n7.Noble Hospital-Chennai  \n8.MIOT International"
+     ]  }, 
+    
+    
+    
+    {"tag":"onco father" , 
+        "input" : ["Who is father of oncology in India?","father of oncology in India?","father of oncology","oncology's father","oncology father","dad of oncology" ] , 
+        "responses":  [ "The Department of Medical Oncology was envisaged and started by the visionary, \"Padmabhushan Dr Suresh H. Advani\" 35 years ago, who is also considered the father of Medical Oncology in India."]  }, 
+    
+    
+    
+
+
+
+
+
+
+
+
+        {"tag":"grow and spread" , 
+    "input" : ["How does cancer grow and spread?","will cancer grow?","will cancer spread?","can cancer get spread?","how cancer get spread?","grow and spread?","cancer growth?"] , 
+    "responses": ["\tcancer cells can spread to nearby tissues and structures by pushing on normal tissue beside the tumour. \n\tCancer cells also make enzymes that break down normal cells and tissues as they grow. \n\tCancer that grows into nearby tissue is called local invasion or invasive cancer. \n\t Cancer can also spread, or metastasize, from where it first started when the cells break away from the tumour and travel to a new location in the body through the blood or lymphatic system. "  ]  },
+
+
+{"tag":"symptoms of lung cancer" , 
+    "input" : ["Symptoms of Lung Cancer?","lung cancer symtopms?","signs of lung cancer?","What are the signs of lung cancer?"] , 
+    "responses":  [ "\tCoughing that gets worse or doesn’t go away.\n\tChest pain.\n\tShortness of breath.\n\tWheezing.\n\tCoughing up blood.\n\tFeeling very tired all the time.\n\tWeight loss with no known cause." ]  },
+
+
+{"tag":"symptoms of skin cancer", 
+    "input" : ["Symptoms of skin cancer?","skin cancer symtopms?","signs of skin cancer?","What are the signs of skin cancer?"] , 
+    "responses":  ["\tA changes in the size, shape or color of an existing spot.\n\tThese changes can vary greatly so there is no one way to describe how a skin cancer looks.\n\tA spot that is itchy or painful\n\tA non-healing sore that bleeds or develops a crust\n\tA red- or skin-colored shiny bump on the top of the skin\n\tA red rough or scaly spot that you can feel\n\tA growth with a raised border and central crust or bleeding\n\tA wart-like growth\n\tA scar-like growth without a well-defined border"]  },
+
+
+{"tag":"symptoms of prostrate cancer" , 
+    "input" : ["Symptoms of prostrate cancer?","prostrate cancer symtopms?","signs of prostrate cancer?","What are the signs of prostrate cancer?" ] , 
+    "responses":  ["\tDifficulty starting urination.\n\tWeak or interrupted flow of urine.\n\tUrinating often, especially at night.\n\tTrouble emptying the bladder completely.\n\tPain or burning during urination.\n\tBlood in the urine or semen."]  },
+
+{"tag":"symptoms of colon cancer" , 
+    "input" : ["Symptoms of colon cancer?","colon cancer symtopms?","signs of colon cancer?","What are the signs of colon cancer?"] , 
+    "responses":  ["\tA change in bowel habits, such as more frequent diarrhea or constipation.\n\tRectal bleeding or blood in the stool.\n\tOngoing discomfort in the belly area, such as cramps, gas or pain.\n\tA feeling that the bowel doesn't empty all the way during a bowel movement.\n\tWeakness or tiredness.\n\tLosing weight without trying."]  },
+
+{"tag":"symptoms of ovarian cancer" , 
+    "input" : ["Symptoms of ovarian cancer?","ovarian cancer symtopms?","signs of ovarian cancer?","What are the signs of ovarian cancer?"] , 
+    "responses":  ["\tAbdominal bloating or swelling\n\tQuickly feeling full when eating\n\tWeight loss\n\tDiscomfort in the pelvic area\n\tFatigue\n\tBack pain\n\tChanges in bowel habits, such as constipation\n\tA frequent need to urinate"]  },
+
+{"tag":"symptoms of pancreatic cancer" , 
+    "input" : ["Symptoms of pancreatic cancer?","pancreatic cancer symtopms?","signs of pancreatic cancer?","What are the signs of pancreatic cancer?"] , 
+    "responses":  ["\tBelly pain that spreads to the sides or back.\n\tLoss of appetite.\n\tWeight loss.\n\tYellowing of the skin and the whites of the eyes, called jaundice.\n\tLight-colored or floating stools.\n\tDark-colored urine.\n\tItching."]  },
+
+{"tag":"symptoms of cervical cancer" , 
+    "input" : ["Symptoms of cervical cancer?","cervical cancer symtopms?","signs of cervical cancer?","What are the signs of cervical cancer?"] , 
+    "responses":  ["\tVaginal bleeding after intercourse, between periods or after menopause.\n\tMenstrual bleeding that is heavier and lasts longer than usual.\n\tWatery, bloody vaginal discharge that may be heavy and have a foul odor.\n\tPelvic pain or pain during intercourse."]  },
+
+{"tag":"symptoms of leukemia" , 
+    "input" : ["symptoms of leukemia?","leukemia symtopms?","signs of leukemia?","What are the signs of leukemia?"] , 
+    "responses":  ["\ttiredness and/or anaemia (pale complexion, weakness and breathlessness)\n\trepeated infections (mouth sores, sore throat, fevers, sweats, coughing, frequent passing of urine with irritation, infected cuts and scratches, and boils)\n\tincreased bruising and bleeding."]  },
+
+{"tag":"symptoms of liver cancer" , 
+    "input" : ["Symptoms of liver cancer?","liver cancer symtopms?","signs of liver cancer?","What are the signs of liver cancer?"] , 
+    "responses":  ["\tweakness and tiredness.\n\tpain in the abdomen.\n\tswelling of the abdomen due to a build-up of fluid (ascites)\n\tpain in the right shoulder.\n\tappetite loss and feeling sick.\n\tweight loss.\n\tyellowing of the skin and eyes (jaundice)\n\tpale bowel motions."]  },
+
+{"tag":"symptoms of thyroid cancer" , 
+    "input" : ["Symptoms of thyroid cancer?","thyroid cancer symtopms?","signs of thyroid cancer?","What are the signs of thyroid cancer?"] , 
+    "responses":  ["\tA lump (nodule) that can be felt through the skin on your neck.\n\tA feeling that close-fitting shirt collars are becoming too tight.\n\tChanges to your voice, including increasing hoarseness.\n\tDifficulty swallowing.\n\tSwollen lymph nodes in your neck.\n\tPain in your neck and throat."]  },
+
+{"tag":"symptoms of bladder cancer" , 
+    "input" : ["Symptoms of bladder cancer?"," bladder cancer symtopms?","signs of bladder cancer?","What are the signs of bladder cancer?"] , 
+    "responses":  ["\tBlood in urine (hematuria), which may cause urine to appear bright red or cola colored, though sometimes the urine appears normal and blood is detected on a lab test.\n\tFrequent urination.\n\tPainful urination.\n\tBack pain."]  }
+
+ 
+
+
+    ,
+    {"tag":"symptoms of brain cancer" , 
+        "input" : [ "Symptoms of brain cancer?"," brain cancer symtopms?","signs of brain cancer?","What are the signs of brain cancer?"] , 
+        "responses":  ["\tHeadaches,\n\tSeizures or convulsions,\n\tDifficulty thinking, speaking or finding words.\n\tPersonality or behavior changes.\n\tWeakness, numbness or paralysis in one part or one side of the body.\n\tLoss of balance, dizziness or unsteadiness.\n\tLoss of hearing.\n\tVision changes."]  },
+    
+    {"tag":"symptoms of esophageal cancer" , 
+        "input" : ["Symptoms of esophageal cancer?"," esophageal cancer symtopms?","signs of esophageal cancer?","What are the signs of esophageal cancer?"] , 
+        "responses":  ["\tDifficulty in swallowing (dysphagia)\n\tWeight loss without trying\n\tChest pain, pressure or burning\n\tWorsening indigestion or heartburn\n\tCoughing or hoarseness"]  },
+    
+    {"tag":"symptoms of head and neck cancer" , 
+        "input" : ["Symptoms of head and neck cancer?"," head and neck cancer symtopms?","signs of head and neck cancer?","What are the signs of head and neck cancer?"] , 
+        "responses":  ["\tSymptoms in the mouth and throat:\n\tA lump in the neck that you might be able to feel through the skin. Typically the lump isn't painful.\n\tA sore in the mouth that won't heal.\n\tCoughing up blood.\n\tHoarse voice.\n\tLoose teeth.\n\tPain when swallowing.\n\tSymptoms in the nose:\n\tNosebleeds.\n\tStuffy or blocked nose that doesn't go away.\n\tOther symptoms:\n\tA sore on the skin of the face, neck or lips that doesn't heal.\n\tEar pain.\n\tLosing weight without trying."]  },
+    
+    {"tag":"symptoms multiple myeloma" , 
+        "input" : ["Symptoms of  multiple myeloma ?"," multiple myeloma symtopms?","signs of multiple myeloma cancer?","What are the signs of multiple myeloma cancer?"] , 
+        "responses":  ["\tBone pain, especially in the spine, chest or hips.\n\tNausea.\n\tConstipation.\n\tLoss of appetite.\n\tMental fogginess or confusion.\n\tTiredness.\n\tInfections.\n\tWeight loss.\n\tWeakness.\n\tThirst.\n\tNeeding to urinate often."]  },
+    
+    {"tag":"symptoms of rectal cancer" , 
+        "input" : ["Symptoms of rectal cancer ?"," rectal cancer symtopms?","signs of rectal cancer?","What are the signs of rectal cancer?"] , 
+        "responses":  ["\tA change in bowel habits, such as diarrhea, constipation or more-frequent bowel movements\n\tDark maroon or bright red blood in stool\n\tNarrow stool\n\tA feeling that your bowel doesn't empty completely\n\tAbdominal pain\n\tUnexplained weight loss\n\tWeakness or fatigue"]  },
+    
+     {"tag":"symptoms of testicular cancer" , 
+        "input" : ["Symptoms of Testicular cancer ?"," Testicular cancer symtopms?","signs of  Testicular cancer?","What are the signs of Testicular cancer?"] , 
+        "responses":  ["\tA lump or swelling in either testicle\n\tA feeling of heaviness in the scrotum\n\tA dull ache in the lower belly or groin\n\tSudden swelling in the scrotum\n\tPain or discomfort in a testicle or the scrotum\n\tEnlargement or tenderness of the breast tissue\n\tBack pain"]  },
+    
+    {"tag":"symptoms of kidney cancer" , 
+        "input" : ["Symptoms of kidney cancer ?"," kidney cancer symtopms?","signs of kidney cancer?","What are the signs of kidney cancer? "] , 
+        "responses":  ["\tBlood in your urine, which may appear pink, red or cola colored\n\tPain in your back or side that doesn't go away\n\tLoss of appetite\n\tUnexplained weight loss\n\tTiredness\n\tFever"]  },
+    
+    {"tag":"symptoms of prostrate cancer" , 
+        "input" : ["Symptoms of prostrate cancer ?"," prostrate cancer symtopms?","signs of prostrate cancer?","What are the signs of prostrate cancer? "],
+        "responses":  ["\tTrouble urinating\n\tDecreased force in the stream of urine\n\tBlood in the urine\n\tBlood in the semen\n\tBone pain\n\tLosing weight without trying\n\tErectile dysfunction"]  },
+    
+    {"tag":"symptoms of gastric cancer" , 
+        "input" : ["Symptoms of gastric cancer ?"," gastric cancer symtopms?","signs of gastric cancer?","What are the signs of gastric cancer? "] , 
+        "responses":  ["\tTrouble swallowing\n\tBelly pain\n\tFeeling bloated after eating\n\tFeeling full after eating small amounts of food\n\tNot feeling hungry when you would expect to be hungry\n\tHeartburn\n\tIndigestion\n\tNausea\n\tVomiting\n\tLosing weight without trying\n\tFeeling very tired\n\tStools that look black"]  },
+    
+    
+    {"tag":"symptoms of uterine cancer" , 
+        "input" : ["Symptoms of uterine cancer ?"," uterine cancer symtopms?","signs of uterine cancer?","What are the signs of uterine cancer? "] , 
+        "responses":  [ "\tVaginal bleeding after menopause.\n\tBleeding between periods.\n\tPelvic pain." ]  },
+    
+    
+    {"tag":"symptoms of meloma" , 
+        "input" : ["Symptoms of meloma ?","meloma symtopms?","signs of meloma?","What are the signs of meloma? "] , 
+        "responses":  ["\tBone pain, especially in the spine, chest or hips.\n\tNausea.\n\tConstipation.\n\tLoss of appetite.\n\tMental fogginess or confusion.\n\tTiredness.\n\tInfections.\n\tWeight loss.\n\tWeakness.\n\tThirst.\n\tNeeding to urinate often."]  },
+    
+    
+    {"tag":"symptoms of colateral cancer" , 
+        "input" : ["Symptoms of colateral cancer ?"," colateral cancer symtopms?","signs of colateral cancer?","What are the signs of colateral cancer? "] , 
+        "responses":  ["\tA change in bowel habits, such as more frequent diarrhea or constipation.\n\tRectal bleeding or blood in the stool.\n\tOngoing discomfort in the belly area, such as cramps, gas or pain.\n\tA feeling that the bowel doesn't empty all the way during a bowel movement.\n\tWeakness or tiredness.\n\tLosing weight without trying."]  },
+    
+    
+    {"tag":"symptoms of bone cancer" , 
+        "input" : ["Symptoms of bone cancer ?"," bone cancer symtopms?","signs of bone cancer?","What are the signs of bone cancer? "] , 
+        "responses":  ["\tOlder age: Most chondrosarcomas occur in older adults, although they can develop in younger people as well.\n\tBenign bone tumors: Having certain types of benign (non-cancerous) bone tumors can increase a person’s risk of chondrosarcoma. For example, an enchondroma is a benign cartilage tumor that can develop in the middle of a bone. These tumors rarely transform into chondrosarcomas, but people with many of these tumors (a condition called multiple enchondromatosis) have an increased risk of chondrosarcoma. Sometimes this condition is linked with inherited changes in the IDH1 or IDH2 genes.Multiple exostoses (also known as multiple osteochondromas) is an inherited condition "]  },
+    
+
+
+        {"tag":"treatment breastcancer" , 
+        "input" : ["treatment breastcancer?","treatment for breastcancer?","how to treat brestcancer?","ways to treat brestcancer?","treatment of brestcancer?"] , 
+        "responses":  ["\tBreast cancer is treated in several ways. It depends on the kind of breast cancer and how far it has spread. People with breast cancer often get more than one kind of treatment.\n\tSurgery- An operation where doctors cut out the cancer.\n\tChemotherapy- Using special medicines to shrink or kill the cancer cells. The drugs can be pills you take or medicines given in your veins, or sometimes both.\n\tHormonal therapy- Blocks cancer cells from getting the hormones they need to grow.\n\tBiological therapy- Works with your body’s immune system to help it fight cancer cells or to control side effects from other cancer treatments.\n\tRadiation therapy- Using high-energy rays (similar to X-rays) to kill the cancer cells."]  },
+    
+    {"tag":"treatment lungcancer" , 
+        "input" : ["treatment lungcancer?","treatment for lungcancer?","how to treat lungcancer?","ways to treat lungcancer?","treatment of lungcancer?"] , 
+        "responses":  ["\tTreatment for stage 0 lung cancer:\nphotodynamic therapy,\nlaser therapy,\nbrachytherapy (radiation).\nTreatment for stage 1 lung cancer:\nchemotherapy\timmunotherapy.\nTreatment for stage 2 lung cancer:\nSurgery can treat stage 2 lung cancer if you’re healthy enough to safely go through the procedure.\nSurgery for stage 2 lung cancer generally involves removing more lung tissue than for stage 1 lung cancer. It might include removing a full lung and lymph nodes.\tSurgery may be proceeded or followed by a combination of chemotherapy, immunotherapy, and radiation.\nIf your cancer indicates certain genetic mutations, you might also take specialized medications as part of your treatment.\n\tLung cancer treatment for stage 3:\tStage 3 lung cancer may or may not be treatable with surgery. \tIt depends on how far the cancer has spread.\tIf it’s treatable with surgery, you might receive chemotherapy, radiation, or immunotherapy before or after the surgery (or both).\tIf surgery is not an option for you, these other treatments may still be used."]  },
+    
+    {"tag":"treatment coloncancer" , 
+        "input" : ["treatment coloncancer?","treatment for coloncancer?","how to treat coloncancer?","ways to treat coloncancer?","treatment of coloncancer?"] , 
+        "responses":  ["\tRemoving polyps during a colonoscopy, called a polypectomy\nEndoscopic mucosal resection\nMinimally invasive surgery, called laparoscopic surgery\nPartial colectomy\nSurgery to create a way for waste to leave the body\nLymph node removal\nChemotherapy\nRadiation therapy\nTargeted therapy\nImmunotherapy\nPalliative care"]  },
+    
+    {"tag":"treatment ovarian cancer" , 
+        "input" : ["treatment ovariancancer?","treatment for ovariancancer?","how to treat ovariancancer?","ways to treat ovariancancer?","treatment of ovariancancer?"] , 
+        "responses":  [ "\tSurgery\nChemotherapy\nTargeted therapy\nHormone therapy\nImmunotherapy\nSupportive (palliative) care"]  },
+    
+    {"tag":"treatment pancreatic cancer" , 
+        "input" : [ "treatment pancreaticcancer?","treatment for pancreaticcancer?","how to treat pancreaticcancer?","ways to treat pancreaticcancer?","treatment of pancreaticcancer?"] , 
+        "responses":  [ "\tThe following types of treatment are used:\nSurgery\nRadiation therapy\nChemotherapy\nChemoradiation therapy\nTargeted therapy"]  },
+    
+    {"tag":"treatment cervical cancer" , 
+        "input" : [ "treatment cervical cancer?","treatment for cervical cancer?","how to treat cervical cancer?","ways to treat cervical cancer?","treatment of cervicalcancer?"] , 
+        "responses":  [ "\tThe following types of treatment are used:\nSurgery\nRadiation therapy\nChemotherapy\nChemoradiation therapy\nTargeted therapy"]  },
+    
+    {"tag":"treatment leukemia" , 
+        "input" : [ "treatment  lukemia?","treatment for leukemia?","how to treat leukemia?","ways to treat leukemia?","treatment of leukemia?"] , 
+        "responses":  ["\tChemotherapy: Chemotherapyis the major form of treatment for leukemia. This drug treatment uses chemicals to kill leukemia cells.\nTargeted therapy:Targeted drug treatments focus on specific abnormalities present within cancer cells. By blocking these abnormalities, targeted drug treatments can cause cancer cells to die. \nRadiation therapy: Radiation therapy uses X-rays or other high-energy beams to damage leukemia cells and stop their growth.\nBone marrow transplant:A bone marrow transplant, also called a stem cell transplant, helps reestablish healthy stem cells by replacing unhealthy bone marrow with leukemia-free stem cells that will regenerate healthy bone marrow.\nImmunotherapy: Immunotherapy uses your immune system to fight cancer. Your body's disease-fighting immune system may not attack your cancer because the cancer cells produce proteins that help them hide from the immune system cells.\nEngineering immune cells to fight leukemia: A specialized treatment called chimeric antigen receptor (CAR)-T cell therapy takes your body's germ-fighting T cells, engineers them to fight cancer and infuses them back into your body.\nClinical trials:Clinical trials are experiments to test new cancer treatments and new ways of using existing treatments. "]  },
+    
+    {"tag":"treatment liver cancer", 
+        "input" : ["treatment liver cancer?","treatment for liver cancer?","how to treat liver cancer?","ways to treat liver cancer?","treatment of livercancer?"] , 
+        "responses":  ["Treatment of  liver cancer may include the following:\nsurveillance for lesions smaller than 1 centimeter\ntotal hepatectomy transplant\npartial hepatectomy\nablation of the tumor using one of the following methods:\nradiofrequency ablation\nmicrowave therapy\npercutaneous ethanol injection\ncryoablation"]  },
+    
+    {"tag":"treatment thyroid cancer", 
+        "input" : [ "treatment thyroid cancer?","treatment for thyroid cancer?","how to treat thyroid cancer?","ways to treat thyroid cancer?","treatment of thyroid cancer?"] , 
+        "responses":  ["Here are different types of treatment for patients with thyroid cancer,\nSurgery\nRadiation therapy, including radioactive iodine therapy\nChemotherapy\nThyroid hormone therapy\nTargeted therapy\nWatchful waiting\nNew types of treatment are being tested in clinical trials.\nImmunotherapy\nTreatment for thyroid cancer may cause side effects.\nPatients may want to think about taking part in a clinical trial.\nPatients can enter clinical trials before, during, or after starting their cancer treatment."]  },
+    
+    {"tag":"treatment bladder cancer" , 
+        "input" : ["treatment bladder cancer?","treatment for bladder cancer?","how to treat bladder cancer?","ways to treat bladder cancer?","treatment of bladder cancer?"] , 
+        "responses":  ["systemic chemotherapy, such as one of the following regimens:\ngemcitabine with either cisplatin or carboplatin\nmethotrexate, vinblastine, doxorubicin, and cisplatin (MVAC)\nhigh-dose MVAC\ncisplatin, methotrexate, and vinblastine (CMV)\nan immunotherapy drug, such as avelumab, nivolumab, or pembrolizumab\nradiation therapy as palliative therapy\nurinary diversion, as palliative therapy or to prevent a blockage of urine that could damage the kidneys\nsurgery to remove part or all of the bladder (cystectomy) as palliative therapy"]  },
+    
+    {"tag":"treatment brain cancer" , 
+        "input" : ["treatment brain cancer?","treatment for braincancer?","how to treat brain cancer?","ways to treat  brain cancer?","treatment of brain cancer?"] , 
+        "responses":  ["The following types of treatment are used:\nSurgery\nRadiation therapy\nChemotherapy\nChemoradiation therapy\nTargeted therapy"]  },
+    
+    {"tag":"treatment esophageal cancer" , 
+        "input" : ["treatment esophagealcancer?","treatment for esophagealcancer?","how to treat esophageal cancer?","ways to treat esophageal cancer?","treatment of esophageal cancer?"], 
+        "responses":  ["Reflux esophagitis\nEosinophilic esophagitis\nDrug-induced esophagitis\nInfectious esophagitis"]  },
+    
+    {"tag":"treatment head and neck cancer" , 
+        "input" : ["treatment head and neck cancer?","treatment for head and neck cancer?","how to treat head and neck cancer?","ways to treat head and neck cancer?","treatment of head and neck cancer?"] , 
+        "responses":  ["The following types of treatment are used:\nSurgery\nRadiation therapy\nChemotherapy\nChemoradiation therapy\nTargeted therapy"]  },
+    
+    {"tag":"treatment multiplemyeloma" , 
+        "input" : ["treatment multiplemyeloma?","treatment for multiplemyeloma?","how to treat multiplemyeloma?","ways to treat multiplemyeloma?","treatment of multiplemyeloma?"] , 
+        "responses":  ["Treatments for multiplemyeloma,\nTargeted therapy \nImmunotherapy\nChemotherapy.\nCorticosteroids\nRadiation therapy. "]  },
+    
+    {"tag":"treatment rectal cancer" , 
+        "input" : ["treatment rectal cancer?","treatment for rectal cancer?","how to treat rectal cancer?","ways to treat rectal cancer?","treatment of rectal cancer?"] , 
+        "responses":  ["The following types of treatment are used:\nSurgery\nRadiation therapy\nChemotherapy\nActive surveillance\nTargeted therapy\nImmunotherapy"]  },
+    
+    {"tag":"treatment testicular cancer" , 
+        "input" : ["treatment testicular cancer?","treatment for testicular cancer?","how to treat testicular cancer?","ways to treat testicular cancer?","treatment of testicular cancer?"] , 
+        "responses":  ["There are different types of treatment for patients with testicular cancer.Testicular tumors are divided into 3 groups, based on how well the tumors are expected to respond to treatment,\n\tGood Prognosis\n\tIntermediate Prognosis\n\tPoor Prognosis\nThe following types of treatment are used:\n\tSurgery\n\tRadiation therapy\n\tChemotherapy\n\tSurveillance\n\tHigh-dose chemotherapy with stem cell transplant"]  },
+    
+    {"tag":"treatment kidney cancer" , 
+        "input" : ["treatment kidney cancer?","treatment for kidney cancer?","how to treat kidney cancer?","ways to treat kidney cancer?","treatment of kidney cancer?"] , 
+        "responses":  ["Surgery\nRadiation therapy\nChemotherapy\nActive surveillance\nTargeted therapy\nImmunotherapy"]  },
+    
+    {"tag":"treatment prostrate cancer" , 
+        "input" : ["treatment prostrate cancer?","treatment for prostrate cancer?","how to treat prostrate cancer?","ways to treat prostrate cancer?","treatment of prostrate cancer?"], 
+        "responses":  ["Cryotherapy : Placing a special probe inside or near the prostate cancer to freeze and kill the cancer cells. This is a less common treatment.\n\tChemotherapy: Using special drugs to shrink or kill the cancer after it has spread to other parts of the body. The drugs can be pills you take or medicines given through your veins, or, sometimes, both.\n\tBiological therapy : Works with your body’s immune system to help it fight cancer or to control side effects from other cancer treatments. Side effects are how your body reacts to drugs or other treatments.\n\tHigh-intensity focused ultrasound. This therapy directs high-energy sound waves (ultrasound) at the cancer to kill cancer cells. This is a less common treatment.\n\tHormone therapy : Blocks cancer cells from getting the hormones they need to grow."]},
+    
+    {"tag":"treatment gastric cancer" , 
+        "input" : ["treatment gastric cancer?","treatment for gastric cancer?","how to treat gastric cancer?","ways to treat gastric cancer?","treatment of gastric cancer?"] , 
+        "responses":  ["\nphotodynamic therapy,\nlaser therapy,\nbrachytherapy (radiation).\nTreatment for stage 1 lung cancer:\nchemotherapy\nimmunotherapy."]  },
+    
+    {"tag":"treatment uterine cancer" , 
+        "input" : ["treatment uterine cancer?","treatment for uterine cancer?","how to treat uterine cancer?","ways to treat uterine cancer?","treatment of uterine cancer?"] , 
+        "responses":  ["Chemotherapy, which uses powerful drugs to destroy cancer cells.\n\tRadiation therapy, which sends targeted radiation beams to destroy cancer cells.\n\tHormone therapy, which gives hormones or blocks them to treat cancer.\n\tImmunotherapy, which helps your immune system fight cancer.\n\tTargeted therapy, which uses medications to target specific cancer cells to stop them from multiplying."]  },
+    
+    {"tag":"treatment colateral cancer" , 
+        "input" : ["treatment colateral cancer?","treatment for colateral cancer?","how to treat colateral cancer?","ways to treat colateral cancer?","treatment of colateral cancer?"] , 
+        "responses":  ["Surgery: In some cases, surgery may be performed to remove tumors or affected organs.\n\tChemotherapy: This involves the use of drugs to kill or slow the growth of cancer cells. Chemotherapy can be systemic, affecting the entire body, or targeted to specific areas.\n\tRadiation Therapy: This uses high doses of radiation to kill cancer cells or shrink tumors.\n\tImmunotherapy: This treatment boosts the body's immune system to help fight cancer.\n\tHormone Therapy: This is used for cancers that are hormone-sensitive, such as certain types of breast and prostate cancers.\n\tTargeted Therapy: This involves drugs that target specific molecules involved in cancer growth.\n\tClinical Trials: Participation in clinical trials may be an option, allowing patients to access new and experimental treatments.\n\tPalliative Care: This focuses on relieving symptoms and improving the quality of life for individuals with advanced cancer."]  },
+    
+    {"tag":"treatment of bone cancer" , 
+        "input" : ["treatment bone cancer?","treatment for bone cancer?","how to treat bone cancer?","ways to treat bone cancer?","treatment of bone cancer?"] , 
+        "responses":  ["Surgery\n\tRadiation therapy\n\tChemotherapy\n\tChemoradiation therapy\n\tTargeted therapy"]  }
+        
+    ]
+
+    
+}
